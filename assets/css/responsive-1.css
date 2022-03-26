@@ -372,6 +372,10 @@
 }
 
 @media screen and (max-width: 991px) {
+	.popular__course__area  .owl-dots{
+		transform: translateY(0);
+
+	}
 	.react_popular_topics .row .col-md-3,
 	.react_populars_topics .row .col-md-3{
 		flex: 0 0 50%;

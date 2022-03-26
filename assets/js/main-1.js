@@ -151,25 +151,35 @@
     if ($('.event-slider').length) {
         $('.event-slider').owlCarousel({
             loop:true,
+            // rtl:true,
             items:4,
             margin:25,
             autoplay:false,
             slideSpeed : 300,
-            nav:false,
+            nav:true,
             dots:true,
             center: false,
             responsive:{
                 0:{
                     items:1,
                     center: false,
+                    dots:true,
+                    nav:false,
+
                 },
                 575:{
                     items:1,
                     center: false,
+                    dots:true,
+                    nav:false,
+
                 },
                 767:{
                     items:2,
                     center: false,
+                    dots:true,
+                    nav:false,
+
                 },
                 1200:{
                     items:4,
@@ -332,106 +342,9 @@
 
 
     // langueges-slider
-    var swiper = new Swiper(".languegeSlider", {
-        slidesPerView: 5,
-        spaceBetween: 0,
-        slidesPerGroup: 1,
-        loop: true,
-        loopFillGroupWithBlank: true,
-        centeredSlides: true,
-        breakpoints: {
-            1500: {
-              slidesPerView: 5,
-            },
-            991: {
-              slidesPerView: 4,
-            },
-            767: {
-              slidesPerView: 4,
-            },
-            575: {
-              slidesPerView: 3,
-            },
-            0: {
-              slidesPerView: 3,
-            }
-          },
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false
-        }
-      });
-
-    // trending-slider
-    var swiper = new Swiper(".trendingSlider", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        slidesPerGroup: 1,
-        loop: true,
-        loopFillGroupWithBlank: true,
-        centeredSlides: true,
-        breakpoints: {
-            1500: {
-              slidesPerView: 3,
-            },
-            991: {
-              slidesPerView: 3,
-            },
-            767: {
-              slidesPerView: 2,
-            },
-            575: {
-              slidesPerView: 1,
-            },
-            0: {
-              slidesPerView: 1,
-            }
-          },
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false
-        },
-        navigation: {
-          nextEl: ".trending-button-next",
-          prevEl: ".trending-button-prev"
-        }
-      });
 
 
-    // testimonials-slider
-    var swiper = new Swiper(".testimonialsSlider", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        slidesPerGroup: 1,
-        loop: true,
-        loopFillGroupWithBlank: true,
-        centeredSlides: true,
-        breakpoints: {
-            1500: {
-              slidesPerView: 3,
-            },
-            991: {
-              slidesPerView: 3,
-            },
-            767: {
-              slidesPerView: 2,
-            },
-            575: {
-              slidesPerView: 1,
-            },
-            0: {
-              slidesPerView: 1,
-            }
-          },
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false
-        },
-        navigation: {
-          nextEl: ".testimonials-button-next",
-          prevEl: ".testimonials-button-prev"
-        }
-      });
+
 
     //   click to scroll
     $(document).ready(function() {
