@@ -182,7 +182,7 @@ h6 {
   font-size: 14px;
 }
 a {
-  color: #3270fc;
+  color: #8D1B3D;
   transition: all 0.5s ease 0s;
   text-decoration: none !important;
   outline: none !important;
@@ -191,7 +191,7 @@ a:active,
 a:hover {
   text-decoration: none;
   outline: 0 none;
-  color: #3270fc;
+  color: #8D1B3D;
 }
 ul {
   list-style: outside none none;
@@ -214,7 +214,7 @@ ul {
   position: absolute;
 }
 .primary-color {
-  color: #3270fc !important;
+  color: #8D1B3D !important;
 }
 .secondary-color {
   color: #F5BD02 !important;
@@ -243,7 +243,7 @@ ul {
   line-height: 54px;
 }
 .react__title__section a {
-  background: #3270FC;
+  background: #8D1B3D;
   border-radius: 6px;
   padding: 10px 26px;
   line-height: 20px;
@@ -432,19 +432,19 @@ ul {
   color: #ffffff;
 }
 .react-btn {
-  background: #3270fc;
+  background: #8D1B3D;
   color: #ffffff;
   font-size: 15px;
   font-weight: 600;
   border-radius: 30px;
   display: inline-block;
   padding: 10px 38px;
-  border: 2px solid #3270fc;
+  border: 2px solid #8D1B3D;
   transition: all 0.5s ease 0s;
 }
 .react-btn:hover {
   background: none;
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .react-btn-border {
   background: #ffffff;
@@ -459,9 +459,9 @@ ul {
   line-height: 20.11px;
 }
 .react-btn-border:hover {
-  background: #3270fc;
+  background: #8D1B3D;
   color: #ffffff;
-  border-color: #3270fc;
+  border-color: #8D1B3D;
 }
 /*****************************************************
     03. Header Section CSS Here
@@ -509,17 +509,17 @@ ul {
   color: #0F1216;
 }
 .react-header.react-header-two .searchbar-part .phone-part a svg {
-  color: #3270FC;
+  color: #8D1B3D;
 }
 .react-header.react-header-two .searchbar-part .phone-part a:hover {
-  color: #3270FC;
+  color: #8D1B3D;
 }
 .react-header.react-header-two .react-logins {
   border: none;
   padding-left: 20px;
 }
 .react-header.react-header-two .react-logins a {
-  background: #3270FC;
+  background: #8D1B3D;
   border-radius: 6px;
   padding: 10px 26px;
   line-height: 20px;
@@ -555,7 +555,7 @@ ul {
   color: #091524;
 }
 .react-header.react-header-three .cate-part .react-category-menu li a:hover {
-  color: #3270FC;
+  color: #8D1B3D;
 }
 .react-header.react-header-three .cate-part .react-category-menu li a i {
   font-size: 22px;
@@ -588,10 +588,10 @@ ul {
   font-size: 15px;
 }
 .react-header.react-header-three .cate-part:hover {
-  color: #3270FC;
+  color: #8D1B3D;
 }
 .react-header.react-header-three .cate-part:hover .react-category-menu li {
-  color: #3270FC;
+  color: #8D1B3D;
 }
 .react-header.react-header-three .cate-part:hover .react-category-menu li ul {
   transform: scaleY(1);
@@ -608,7 +608,7 @@ ul {
   color: white;
 }
 .react-header.react-header-four .react-inner-menus ul li a.react-current-page {
-  color: #3270fc !important;
+  color: #8D1B3D !important;
 }
 .react-header.react-header-four .react-login svg {
   stroke: white;
@@ -626,13 +626,13 @@ ul {
   transform: translateY(-4px);
 }
 .react-header.react-header-four .react-menus li a:hover {
-  color: #3270fc !important;
+  color: #8D1B3D !important;
 }
 .react-header.react-header-four .react-menus li ul {
   background: #000;
 }
 .react-header.react-header-four .react-menus li ul li a:hover {
-  color: #3270fc !important;
+  color: #8D1B3D !important;
 }
 .react-header .react-menus.home-four li {
   background: #000;
@@ -689,7 +689,7 @@ ul {
   color: #F5BD02;
 }
 .react-header .searchbar-part .react-login a:hover {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .react-header .searchbar-part .react-login svg {
   color: #F5BD02;
@@ -958,7 +958,7 @@ ul {
 }
 .home-banner-part .react__hero__card .react__thumb .react__price {
   border-radius: 50%;
-  background-color: #3270fc;
+  background-color: #8D1B3D;
   width: 50px;
   height: 50px;
   position: absolute;
@@ -992,7 +992,7 @@ ul {
   color: #0f1629;
 }
 .home-banner-part .react__hero__card .hero__card-content .react-course-title a:hover {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .home-banner-part .react__hero__card .hero__card-content .hero__card-icon {
   justify-content: space-between;
@@ -1003,7 +1003,7 @@ ul {
   padding: 7px;
   width: 32px;
   height: 32px;
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .home-banner-part .react__hero__card .hero__card-content .hero__card-icon .hero__card-icon--1 span {
   font-weight: 500;
@@ -1114,7 +1114,7 @@ ul {
   transition: all .5s ease;
 }
 .hero4__area .event__video-btn--plays i:hover {
-  border-color: #3270fc;
+  border-color: #8D1B3D;
 }
 .hero4__area .event__video-btn--plays em {
   color: #ffffff;
@@ -1129,14 +1129,14 @@ ul {
   transition: all .5s ease;
 }
 .hero4__area .event__video-btn--plays .event__videos:hover {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .hero4__area .event__video-btn--plays .event__videos:hover i {
-  border-color: #3270fc;
-  color: #3270fc;
+  border-color: #8D1B3D;
+  color: #8D1B3D;
 }
 .hero4__area .event__video-btn--plays .event__videos:hover em {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .hero4__area .hero4__content p {
   font-size: 18px;
@@ -1158,7 +1158,7 @@ ul {
   margin-right: 25px;
 }
 .hero4__area .hero4__content .hero4-btn:hover {
-  background: #3270fc;
+  background: #8D1B3D;
   color: #fff;
 }
 .hero4__area .hero4__image {
@@ -1304,11 +1304,11 @@ ul {
   box-shadow: 0px 1px 2px rgba(0, 14, 32, 0.1);
 }
 .react-course-filter .react-filter button:hover {
-  background: #3270FC;
+  background: #8D1B3D;
   color: #ffffff;
 }
 .react-course-filter .react-filter button.active {
-  background: #3270FC;
+  background: #8D1B3D;
   color: #ffffff;
 }
 .react-course-filter .react__title__section h2 {
@@ -1338,7 +1338,7 @@ ul {
   font-size: 14px;
   line-height: 17px;
   font-weight: 600;
-  background: #3270fc;
+  background: #8D1B3D;
   display: inline-block;
   padding: 4px 9px 7px;
   color: #fff;
@@ -1359,7 +1359,7 @@ ul {
   color: #0F1216;
 }
 .react-course-filter .single-studies .inner-course .case-content .case-title a:hover {
-  color: #3270FC;
+  color: #8D1B3D;
 }
 .react-course-filter .single-studies .inner-course .case-content .react__user {
   font-size: 16px;
@@ -1575,7 +1575,7 @@ ul {
   border-color: #ffffff;
 }
 .home-sliders .owl-nav [class*="owl-"]:hover:before {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .home-sliders .event__video-btn--play {
   right: 28%;
@@ -1750,7 +1750,7 @@ ul {
   line-height: 30px !important;
 }
 .home-four-sliders .content-part .slider-btn {
-  background: #3270fc;
+  background: #8D1B3D;
   color: #ffffff;
   font-size: 16px;
   padding: 15px 40px;
@@ -1915,7 +1915,7 @@ ul {
   color: #252525;
 }
 .catagories-section .catagory-item .content .item-title a:hover {
-  color: #3270fc !important;
+  color: #8D1B3D !important;
 }
 .catagories-section .catagory-item .content .item-title::before {
   content: '';
@@ -2147,10 +2147,10 @@ ul {
   color: #252525;
 }
 .trending-section .trending-card .content .card-title a:hover {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .trending-section .trending-card .content .card-info {
-  color: #3270fc;
+  color: #8D1B3D;
   font-size: 20px;
   font-weight: 600;
 }
@@ -2207,7 +2207,7 @@ ul {
   max-width: 600px;
 }
 .instructor-section .instructor-inner .instructor-btn {
-  background-color: #3270fc;
+  background-color: #8D1B3D;
   padding: 15px 30px;
   border-radius: 100px;
   color: white;
@@ -2519,7 +2519,7 @@ ul {
   color: #7f7f7f;
 }
 .events-section .event-item .event-btn {
-  background: #3270fc;
+  background: #8D1B3D;
   padding: 10px 40px;
   font-size: 20px;
   border-radius: 50px;
@@ -2576,7 +2576,7 @@ ul {
     margin-bottom: 20px;
   }
   .events-section .event-btn {
-    background: #3270fc;
+    background: #8D1B3D;
     color: #ffffff;
     padding: 10px 40px;
     font-size: 20px;
@@ -2615,7 +2615,7 @@ ul {
   line-height: 40px;
 }
 .blog-section .maximized-part .blog-title a:hover {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .blog-section .maximized-part .read-more {
   color: #777777;
@@ -2659,7 +2659,7 @@ ul {
   line-height: 35px;
 }
 .blog-section .minimized-part .blog-item .content .blog-title a:hover {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .blog-section .minimized-part .blog-item .content .read-more {
   color: #777777;
@@ -2789,7 +2789,7 @@ ul {
   color: #F5BD02;
 }
 .category__area .category__wrapper:hover a {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .category__area .category__wrapper.category__wrapper2 img {
   height: 36px;
@@ -2807,7 +2807,7 @@ ul {
 }
 .category__area .category__inner:hover {
   transform: translateY(-2px);
-  border-color: #3270fc;
+  border-color: #8D1B3D;
 }
 .react-logo-area.brand__area {
   padding: 0 0 120px;
@@ -2899,7 +2899,7 @@ ul {
   color: #F5BD02;
 }
 .hero3__area .about__content ul li a:hover {
-  background: #3270fc;
+  background: #8D1B3D;
   color: #ffffff;
 }
 .hero3__area .about__content ul li a:hover svg {
@@ -2916,7 +2916,7 @@ ul {
   margin: 0;
 }
 .hero3__area .hero3__content .hero3__title em {
-  color: #3270FC;
+  color: #8D1B3D;
   font-style: normal;
 }
 .hero3__area .hero3__content .search-form {
@@ -2927,7 +2927,7 @@ ul {
   max-width: 570px;
   margin: 40px auto 25px;
   position: relative;
-  border-left: 3px solid #3270FC;
+  border-left: 3px solid #8D1B3D;
 }
 .hero3__area .hero3__content .search-form [type="text"] {
   border: none;
@@ -2950,7 +2950,7 @@ ul {
   color: #F5BD02;
 }
 .hero3__area .hero3__content .hero3__paragraph a {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .hero3__area .hero3__content .hero3__paragraph a svg {
   width: 18px;
@@ -3096,7 +3096,7 @@ ul {
   height: 8px;
   width: 100%;
   z-index: 1;
-  border-top: 3px solid #3270FC;
+  border-top: 3px solid #8D1B3D;
   transition: all 0.5s ease 0s;
   opacity: 0;
 }
@@ -3110,7 +3110,7 @@ ul {
   color: #F5BD02;
 }
 .react_populars_topics .item__inner h3 a:hover {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .react_populars_topics .item__inner p {
   font-size: 16px;
@@ -3151,7 +3151,7 @@ ul {
   font-weight: 700;
 }
 .react_populars_topics.react_populars_topics2 .item__inner h3 a:hover {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .react_populars_topics.react_populars_topics2 .item__inner p {
   font-size: 16px;
@@ -3170,7 +3170,7 @@ ul {
   width: 18px;
 }
 .react_populars_topics.react_populars_topics2 .item__inner a:hover {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .react_populars_topics.react_populars_topics2 .item__inner:hover {
   box-shadow: 0px 30px 50px 0px rgba(0, 15, 56, 0.1), inset 0px 3px 0px 0px rgba(42, 109, 245, 0.004);
@@ -3364,7 +3364,7 @@ ul {
   line-height: 56px;
 }
 .about2__area h2 em {
-  color: #3270FC;
+  color: #8D1B3D;
 }
 .about2__area .about__image {
   position: relative;
@@ -3420,7 +3420,7 @@ ul {
   width: 18px;
 }
 .about2__area .about__btn a:hover {
-  background: #3270FC;
+  background: #8D1B3D;
   color: #fff;
 }
 .about2__area ul {
@@ -3464,7 +3464,7 @@ ul {
   display: inline-block;
   margin-top: 30px;
   line-height: 20px;
-  background: #3270FC;
+  background: #8D1B3D;
 }
 .about2__area.about2__area .about__content .about__btn a:hover {
   opacity: .9;
@@ -3598,7 +3598,7 @@ ul {
   width: 18px;
 }
 .react_featured_online .container .border-btns:hover {
-  background: #3270FC;
+  background: #8D1B3D;
   color: #fff;
 }
 .react_featured_online .item__inner {
@@ -3635,7 +3635,7 @@ ul {
   color: #0F1216;
 }
 .react_featured_online .item__inner .react-content h3 a:hover {
-  color: #3270FC;
+  color: #8D1B3D;
 }
 .react_featured_online .item__inner .react-content ul {
   margin: 0;
@@ -3702,7 +3702,7 @@ ul {
   width: 18px;
 }
 .accordion__area .accordion__wrapper-1 a.border-btns:hover {
-  background: #3270FC;
+  background: #8D1B3D;
   color: #fff;
 }
 .accordion__area .accordion-item {
@@ -3764,19 +3764,19 @@ ul {
 }
 .accordion__area.accordion__area .accordion-button:not(.collapsed) {
   background: none;
-  color: #3270FC;
+  color: #8D1B3D;
   font-size: 20px;
 }
 .accordion__area.accordion__area .accordion-button:not(.collapsed):after {
-  color: #3270FC;
+  color: #8D1B3D;
 }
 .accordion__area.accordion__area .accordion-button:hover {
   background: none;
-  color: #3270FC;
+  color: #8D1B3D;
   font-size: 20x;
 }
 .accordion__area.accordion__area .accordion-button:hover:after {
-  color: #3270FC;
+  color: #8D1B3D;
 }
 .accordion__area .accordion .accordion-body {
   padding-top: 0;
@@ -3947,8 +3947,8 @@ ul {
   font-size: 14px;
 }
 .instructors___page .instructor__content .instructor__image .content__hover ul li a:hover {
-  background: #3270FC;
-  border-color: #3270FC;
+  background: #8D1B3D;
+  border-color: #8D1B3D;
 }
 .instructors___page .instructor__content .instructor__image:before {
   content: "";
@@ -3977,7 +3977,7 @@ ul {
   color: #0F1216;
 }
 .instructors___page .instructor__content .bottom-content h4 a:hover {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .instructors___page .instructor__content .bottom-content p {
   margin: 0;
@@ -4001,7 +4001,7 @@ ul {
   background: #ffffff;
 }
 .profile-page .profile-top .follows {
-  background: #3270FC;
+  background: #8D1B3D;
   border-radius: 6px;
   color: #fff;
   padding: 8px 25px;
@@ -4035,8 +4035,8 @@ ul {
   border-radius: 5px;
 }
 .profile-page .profile-top .follow:hover {
-  background: #3270fc;
-  border-color: #3270fc;
+  background: #8D1B3D;
+  border-color: #8D1B3D;
   color: #ffffff;
 }
 .profile-page .profile-top .user-section {
@@ -4069,7 +4069,7 @@ ul {
   font-size: 13px;
 }
 .profile-page .profile-top .user-section li.social a:hover {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .profile-page .profile-top h3 {
   font-size: 26px;
@@ -4277,8 +4277,8 @@ ul {
 }
 .popular__course__area  .owl-carousel .owl-nav [class*="owl-"]:hover {
   color: #ffffff;
-  /*background: #3270FC;*/
-  /*border-color: #3270FC;*/
+  /*background: #8D1B3D;*/
+  /*border-color: #8D1B3D;*/
 }
 .course__item .course__thumb{
   overflow: hidden;
@@ -4365,7 +4365,7 @@ ul {
   line-height: 18px;
   padding: 4px 12px 5px 12px;
   color: #fff;
-  background-color: #3270FC;
+  background-color: #8D1B3D;
   border-radius: 4px;
   position: absolute;
   z-index: 1;
@@ -4392,7 +4392,7 @@ ul {
   color: #0F1216;
 }
 .react-blog__area .blog__card--title:hover a {
-  color: #3270FC;
+  color: #8D1B3D;
 }
 .react-blog__area .blog__card--link {
   font-size: 15px;
@@ -4401,7 +4401,7 @@ ul {
   color: #F5BD02;
 }
 .react-blog__area .blog__card--link:hover {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .react-blog__area .blog__card--link-icon {
   vertical-align: middle;
@@ -4724,7 +4724,7 @@ ul {
   color: #F5BD02;
 }
 .react-upcoming__event .event__card .event__card--title a:hover {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .react-upcoming__event .event__card .event_location {
   font-size: 16px;
@@ -4792,7 +4792,7 @@ ul {
   transform: rotate(90deg);
   position: relative;
   width: 18px;
-  color: #3270FC;
+  color: #8D1B3D;
   top: -2px;
 }
 .back__course__page_grid .shorting__course .all__icons svg.feather-list {
@@ -4877,7 +4877,7 @@ ul {
   margin-right: 3px;
 }
 .back__course__page_grid .shorting__courses3 .all__icons .grid__icons span {
-  background: #3270FC;
+  background: #8D1B3D;
   width: 4px;
   height: 4px;
   border-radius: 50%;
@@ -4922,7 +4922,7 @@ ul {
   line-height: 34px;
 }
 .back__course__page_grid.back__course__page_grid_left .back-pagination li a:hover {
-  border-color: #3270FC;
+  border-color: #8D1B3D;
 }
 .back__course__page_grid.back__course__page_grid_left .react-list .single-studies .inner-course {
   display: flex;
@@ -4998,7 +4998,7 @@ ul {
   margin-top: 16px;
 }
 .react-upcoming__event_list .event__card .event__card--date {
-  color: #3270fc;
+  color: #8D1B3D;
   margin-bottom: 8px;
 }
 .react-upcoming__event_list .shorting__course3 {
@@ -5073,7 +5073,7 @@ ul {
   color: #0F1216;
 }
 .react-upcoming__event_list ul.related-courses li .titles h4:hover a {
-  color: #3270FC;
+  color: #8D1B3D;
 }
 .react-upcoming__event_list ul.related-courses li .titles span {
   font-weight: 600;
@@ -5127,7 +5127,7 @@ ul {
   border: 2px solid #F2F4F9;
 }
 .react-upcoming__event_list .blog-form form input:focus {
-  border: 2px solid #3270fc;
+  border: 2px solid #8D1B3D;
   background: none;
 }
 .react-upcoming__event_list .blog-form form select.from-control {
@@ -5144,7 +5144,7 @@ ul {
   margin-bottom: 12px;
 }
 .react-upcoming__event_list .blog-form form button {
-  background: #3270FC;
+  background: #8D1B3D;
   font-size: 16px;
   color: #ffffff;
   border-radius: 6px;
@@ -5211,7 +5211,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   color: #F5BD02;
 }
 body.courses-grid-page .react-course-filter .single-studies .inner-course .case-content .case-title a:hover {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 body.courses-grid-page .react-course-filter .single-studies .inner-course .case-img a {
   left: 22px;
@@ -5272,7 +5272,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   position: relative;
 }
 .react-blog-page .single-blog .blog-img .cate {
-  background: #3270fc;
+  background: #8D1B3D;
   color: #ffffff;
   font-size: 14px;
   font-weight: 600;
@@ -5321,7 +5321,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   color: #0F1216;
 }
 .react-blog-page .single-blog .blog-content .blog-title a:hover {
-  color: #3270FC;
+  color: #8D1B3D;
 }
 .react-blog-page .single-blog .blog-content .blog-desc {
   color: #55575c;
@@ -5346,9 +5346,9 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   width: 20px;
 }
 .react-blog-page .single-blog .blog-content .button__sec .blog-btn:hover {
-  background: #3270FC;
+  background: #8D1B3D;
   color: #ffffff;
-  border-color: #3270FC;
+  border-color: #8D1B3D;
 }
 .react-blog-page .single-blog .blog-content .button__sec .share-course {
   color: #0F1216;
@@ -5360,7 +5360,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 }
 .react-blog-page .single-blog .blog-content .button__sec .share-course em {
   width: 45px;
-  color: #3270FC;
+  color: #8D1B3D;
   border: 2px solid rgba(15, 18, 22, 0.1);
   border-radius: 50%;
   padding: 1px 13px;
@@ -5406,7 +5406,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   opacity: 1;
 }
 .react-blog-page .single-blog .blog-content .button__sec .share-course:hover em {
-  background: #3270FC;
+  background: #8D1B3D;
   color: #fff;
 }
 .react-blog-page .single-blog .blog-content .button__sec .share-course:hover span {
@@ -5418,14 +5418,14 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   margin: 40px 0px 60px;
   padding: 50px 40px 50px 40px;
   color: #0F1216;
-  box-shadow: -3px 0px 0px #3270fc, 0px 20px 40px rgba(15, 18, 22, 0.1);
+  box-shadow: -3px 0px 0px #8D1B3D, 0px 20px 40px rgba(15, 18, 22, 0.1);
   border-radius: 6px;
   font-size: 24px;
   overflow: hidden;
   line-height: 34px;
   font-weight: 400;
   z-index: 1;
-  border-left: 1px solid #3270FC;
+  border-left: 1px solid #8D1B3D;
 }
 .react-blog-page blockquote:before {
   content: "";
@@ -5517,22 +5517,22 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   border-radius: 4px;
 }
 .blog-post-page .widget-tags .tags li a:hover {
-  background: #3270FC;
+  background: #8D1B3D;
   color: #ffffff;
 }
 /*****************************************************
     23. Blog Details Page CSS
 ****************************/
-.blog-post-single-page .react-course-filter .single-studies .inner-course .case-content {
+ .react-course-filter .single-studies .inner-course .case-content {
   padding: 30px 38px 30px 25px;
 }
-.blog-post-single-page .react-course-filter .single-studies .inner-course .case-content em {
+ .react-course-filter .single-studies .inner-course .case-content em {
   display: block;
   font-size: 16px;
   color: #8D1B3D;
   font-style: normal;
 }
-.blog-post-single-page .share-course {
+ .share-course {
   color: #0F1216;
   font-size: 16px;
   font-weight: 600;
@@ -5541,10 +5541,10 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   text-align: right;
   position: relative;
 }
-.blog-post-single-page .share-course em {
+ .share-course em {
   width: 45px;
   color: #fff;
-  background: #3270FC;
+  background: #8D1B3D;
   border-radius: 50%;
   padding: 1px 13px;
   display: inline-block;
@@ -5552,12 +5552,12 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   line-height: 40px;
   margin-left: 8px;
 }
-.blog-post-single-page .share-course em svg {
+ .share-course em svg {
   width: 18px;
   position: relative;
   right: 2px;
 }
-.blog-post-single-page .share-course span {
+ .share-course span {
   position: absolute;
   background: #000;
   padding: 7px 18px;
@@ -5568,7 +5568,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   opacity: 0;
   transition: all .5s ease;
 }
-.blog-post-single-page .share-course span:before {
+ .share-course span:before {
   content: "";
   width: 0;
   height: 0;
@@ -5580,77 +5580,77 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   left: 50%;
   transform: translateX(-50%);
 }
-.blog-post-single-page .share-course span a {
+ .share-course span a {
   padding: 0 7px;
   color: #fff;
   opacity: .6;
 }
-.blog-post-single-page .share-course span a:hover {
+ .share-course span a:hover {
   opacity: 1;
 }
-.blog-post-single-page .share-course:hover em {
+ .share-course:hover em {
   opacity: .9;
 }
-.blog-post-single-page .share-course:hover span {
+ .share-course:hover span {
   opacity: 1;
   top: -55px;
 }
-.blog-post-single-page .blog-single-inner .blog-image {
+ .blog-single-inner .blog-image {
   margin-bottom: 42px;
 }
-.blog-post-single-page .blog-single-inner .blog-content {
+ .blog-single-inner .blog-content {
   color: #3e3e51;
 }
-.blog-post-single-page .blog-single-inner .blog-content p:first-child {
+ .blog-single-inner .blog-content p:first-child {
   margin: -8px 0 0;
   overflow: hidden;
 }
-.blog-post-single-page .blog-single-inner .blog-content p {
+ .blog-single-inner .blog-content p {
   margin-bottom: 40px;
   line-height: 28px;
   font-size: 18px;
   font-weight: 400;
   color: #5B5F64;
 }
-.blog-post-single-page .blog-single-inner .blog-content h3 {
+ .blog-single-inner .blog-content h3 {
   color: #0F1216;
   font-weight: 600;
   font-size: 34px;
   line-height: 43px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .back-order-list h3 {
+ .blog-single-inner .blog-content .back-order-list h3 {
   color: #0F1216;
   font-weight: 600;
   font-size: 34px;
   line-height: 43px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .back-order-list ul li {
+ .blog-single-inner .blog-content .back-order-list ul li {
   margin: 20px 0;
   font-size: 16px;
   font-weight: 400;
   color: #0F1216;
 }
-.blog-post-single-page .blog-single-inner .blog-content .back-order-list ul li i {
+ .blog-single-inner .blog-content .back-order-list ul li i {
   background: rgba(50, 112, 252, 0.08);
   padding: 6px;
   border-radius: 50%;
   margin-right: 12px;
 }
-.blog-post-single-page .blog-single-inner .blog-content blockquote {
+ .blog-single-inner .blog-content blockquote {
   position: relative;
   margin: 40px 0px 60px;
   padding: 38px 40px 40px 40px;
   color: #0F1216;
-  box-shadow: -3px 0px 0px #3270fc, 0px 20px 40px rgba(15, 18, 22, 0.1);
+  box-shadow: -3px 0px 0px #8D1B3D, 0px 20px 40px rgba(15, 18, 22, 0.1);
   border-radius: 6px;
   font-size: 24px;
   overflow: hidden;
   line-height: 34px;
   font-weight: 400;
   z-index: 1;
-  border-left: 1px solid #3270FC;
+  border-left: 1px solid #8D1B3D;
 }
-.blog-post-single-page .blog-single-inner .blog-content blockquote:before {
+ .blog-single-inner .blog-content blockquote:before {
   content: "";
   font-size: 120px;
   position: absolute;
@@ -5661,7 +5661,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   height: 107px;
   z-index: 0;
 }
-.blog-post-single-page .blog-single-inner .blog-content blockquote.block__link_q:before {
+ .blog-single-inner .blog-content blockquote.block__link_q:before {
   content: "";
   font-size: 120px;
   position: absolute;
@@ -5672,7 +5672,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   height: 180px;
   z-index: -1;
 }
-.blog-post-single-page .blog-single-inner .blog-content blockquote em {
+ .blog-single-inner .blog-content blockquote em {
   display: block;
   font-style: normal;
   color: #5B5F64;
@@ -5682,7 +5682,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   position: relative;
   padding-left: 22px;
 }
-.blog-post-single-page .blog-single-inner .blog-content blockquote em:before {
+ .blog-single-inner .blog-content blockquote em:before {
   content: "";
   position: absolute;
   bottom: 16px;
@@ -5692,17 +5692,17 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   z-index: -1;
   background: #5B5F64;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-tags {
+ .blog-single-inner .blog-content .blog-tags {
   margin-top: 40px;
   display: block;
   padding: 30px 0 25px;
   border-top: 1px solid #ecedf3;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-tags ul.mata-tags li {
+ .blog-single-inner .blog-content .blog-tags ul.mata-tags li {
   display: inline-block;
   margin-right: 5px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-tags ul.mata-tags li a {
+ .blog-single-inner .blog-content .blog-tags ul.mata-tags li a {
   padding: 3px 20px;
   background: #F2F4F9;
   font-size: 13px;
@@ -5711,20 +5711,20 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   display: block;
   border-radius: 6px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-tags ul.mata-tags li a:hover {
-  background: #3270FC;
+ .blog-single-inner .blog-content .blog-tags ul.mata-tags li a:hover {
+  background: #8D1B3D;
   color: #ffffff;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-tags ul.mata-tags li:last-child {
+ .blog-single-inner .blog-content .blog-tags ul.mata-tags li:last-child {
   margin: 0;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-tags ul.mata-tags li.tags {
+ .blog-single-inner .blog-content .blog-tags ul.mata-tags li.tags {
   font-size: 16px;
   font-weight: 600;
   color: #000;
   margin-right: 20px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .post-author {
+ .blog-single-inner .blog-content .post-author {
   display: flex;
   align-items: center;
   padding: 40px;
@@ -5734,168 +5734,168 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   box-shadow: 0px 20px 40px rgba(15, 18, 22, 0.1);
   border-radius: 6px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .post-author .avatar {
+ .blog-single-inner .blog-content .post-author .avatar {
   margin-right: 20px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .post-author .avatar img {
+ .blog-single-inner .blog-content .post-author .avatar img {
   border-radius: 50%;
   width: 122px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .post-author .info .name {
+ .blog-single-inner .blog-content .post-author .info .name {
   margin: 0;
   color: #0F1216;
   transition: all 0.5s ease 0s;
   font-size: 18px;
   font-weight: 700;
 }
-.blog-post-single-page .blog-single-inner .blog-content .post-author .info .designation a {
+ .blog-single-inner .blog-content .post-author .info .designation a {
   font-size: 14px;
   color: #4D5765;
   margin-right: 8px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .post-author .info .designation a:hover {
-  color: #3270FC;
+ .blog-single-inner .blog-content .post-author .info .designation a:hover {
+  color: #8D1B3D;
 }
-.blog-post-single-page .blog-single-inner .blog-content .post-author p {
+ .blog-single-inner .blog-content .post-author p {
   font-size: 16px;
   color: #5B5F64;
   margin: 9px 0 12px;
   line-height: 24px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment {
+ .blog-single-inner .blog-content .author-comment {
   margin-bottom: 0px;
   margin-top: 0px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment h4 {
+ .blog-single-inner .blog-content .author-comment h4 {
   margin: 36px 0 20px;
   font-size: 20px;
   font-weight: 700;
   color: #0F1216;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment span {
+ .blog-single-inner .blog-content .author-comment span {
   font-size: 15px;
   color: #7f7d86;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment span i:before {
+ .blog-single-inner .blog-content .author-comment span i:before {
   font-size: 13px;
   padding-right: 3px;
   position: relative;
   top: -1px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment h6 {
+ .blog-single-inner .blog-content .author-comment h6 {
   margin: 0 0 3px;
   font-size: 16px;
   color: #0F1216;
   font-weight: 600;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment ul {
+ .blog-single-inner .blog-content .author-comment ul {
   padding: 0;
   margin: 0;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment ul li {
+ .blog-single-inner .blog-content .author-comment ul li {
   margin: 0 0 35px;
   padding: 30px 57px 32px 35px;
   border: 1px solid rgba(0, 48, 110, 0.1);
   border-radius: 6px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment ul li .col-sm-2 {
+ .blog-single-inner .blog-content .author-comment ul li .col-sm-2 {
   text-align: left;
   padding-right: 6px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment ul li:nth-child(2) {
+ .blog-single-inner .blog-content .author-comment ul li:nth-child(2) {
   margin-left: 120px;
   padding: 35px 52px 32px 35px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment ul li:nth-child(2) .col-sm-2 {
+ .blog-single-inner .blog-content .author-comment ul li:nth-child(2) .col-sm-2 {
   padding-right: 6px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment ul li:nth-child(2) .image-comments img {
+ .blog-single-inner .blog-content .author-comment ul li:nth-child(2) .image-comments img {
   width: 55px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment ul li:nth-child(3) {
+ .blog-single-inner .blog-content .author-comment ul li:nth-child(3) {
   margin-left: 120px;
   padding: 35px 52px 38px 35px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment ul li:nth-child(3) .col-sm-2 {
+ .blog-single-inner .blog-content .author-comment ul li:nth-child(3) .col-sm-2 {
   padding-right: 6px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment ul li:nth-child(3) .image-comments img {
+ .blog-single-inner .blog-content .author-comment ul li:nth-child(3) .image-comments img {
   width: 55px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment ul li .image-comments {
+ .blog-single-inner .blog-content .author-comment ul li .image-comments {
   margin-top: 0;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment ul li .image-comments img {
+ .blog-single-inner .blog-content .author-comment ul li .image-comments img {
   width: 55px;
   border-radius: 100%;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment ul li .reply {
+ .blog-single-inner .blog-content .author-comment ul li .reply {
   font-size: 14px;
   color: #5B5F64;
   font-weight: 400;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment ul li .reply a {
-  color: #3270fc;
+ .blog-single-inner .blog-content .author-comment ul li .reply a {
+  color: #8D1B3D;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment ul li .reply a:hover {
-  color: #3270fc;
+ .blog-single-inner .blog-content .author-comment ul li .reply a:hover {
+  color: #8D1B3D;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment ul li .dsc-comments h4 {
+ .blog-single-inner .blog-content .author-comment ul li .dsc-comments h4 {
   margin: 0 0 12px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment ul li .dsc-comments a {
+ .blog-single-inner .blog-content .author-comment ul li .dsc-comments a {
   padding: 4px 0;
   font-size: 14px;
   color: #0F1216;
   font-weight: 600;
   border-radius: 6px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment ul li .dsc-comments a svg {
+ .blog-single-inner .blog-content .author-comment ul li .dsc-comments a svg {
   width: 16px;
   position: relative;
   top: 0px;
   margin-right: 2px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment ul li .dsc-comments a:hover {
-  color: #3270FC;
+ .blog-single-inner .blog-content .author-comment ul li .dsc-comments a:hover {
+  color: #8D1B3D;
 }
-.blog-post-single-page .blog-single-inner .blog-content .author-comment ul li .dsc-comments p {
+ .blog-single-inner .blog-content .author-comment ul li .dsc-comments p {
   margin: 12px 0 15px;
   color: #55575c;
   font-size: 16px;
   line-height: 24px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-form {
+ .blog-single-inner .blog-content .blog-form {
   margin-top: 98px;
   z-index: 9;
   position: relative;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-form .back-input {
+ .blog-single-inner .blog-content .blog-form .back-input {
   position: relative;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-form .back-input img {
+ .blog-single-inner .blog-content .blog-form .back-input img {
   position: absolute;
   bottom: 55px;
   left: 30px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-form .back-textarea img {
+ .blog-single-inner .blog-content .blog-form .back-textarea img {
   position: absolute;
   top: 57px;
   left: 47px;
   z-index: 1;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-form h3 {
+ .blog-single-inner .blog-content .blog-form h3 {
   font-size: 20px;
   color: #0F1216;
   font-weight: 700;
   margin-bottom: 0px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-form form p {
+ .blog-single-inner .blog-content .blog-form form p {
   color: #5B5F64;
   font-size: 16px;
   font-weight: 400;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-form form input {
+ .blog-single-inner .blog-content .blog-form form input {
   width: 100%;
   height: 57px;
   padding: 10px 30px 10px 30px;
@@ -5906,11 +5906,11 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   margin-bottom: 25px;
   border: 2px solid #F2F4F9;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-form form input:focus {
-  border: 2px solid #3270FC;
+ .blog-single-inner .blog-content .blog-form form input:focus {
+  border: 2px solid #8D1B3D;
   background: none;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-form form textarea {
+ .blog-single-inner .blog-content .blog-form form textarea {
   width: 100%;
   height: 160px;
   padding: 22px 30px;
@@ -5922,12 +5922,12 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   position: relative;
   border: 2px solid #F2F4F9;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-form form textarea:focus {
-  border: 2px solid #3270FC;
+ .blog-single-inner .blog-content .blog-form form textarea:focus {
+  border: 2px solid #8D1B3D;
   background: none;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-form form button {
-  background: #3270FC;
+ .blog-single-inner .blog-content .blog-form form button {
+  background: #8D1B3D;
   font-size: 16px;
   color: #ffffff;
   border-radius: 10px;
@@ -5942,60 +5942,60 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   width: 100%;
   max-width: 210px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-form form button svg {
+ .blog-single-inner .blog-content .blog-form form button svg {
   width: 18px;
   position: relative;
   top: -1px;
   margin-left: 2px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-form form button:hover {
+ .blog-single-inner .blog-content .blog-form form button:hover {
   color: #ffffff;
   opacity: .8;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-form form .back-check-box {
+ .blog-single-inner .blog-content .blog-form form .back-check-box {
   align-items: center;
   margin-top: -6px;
   margin-bottom: 30px;
   color: #55575c;
   font-size: 16px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-form form .back-check-box a {
+ .blog-single-inner .blog-content .blog-form form .back-check-box a {
   color: #1a152e;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-form form .back-check-box a:hover {
+ .blog-single-inner .blog-content .blog-form form .back-check-box a:hover {
   color: #74727d;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-form form .back-check-box input {
+ .blog-single-inner .blog-content .blog-form form .back-check-box input {
   width: auto;
   margin: 0 8px 0 0;
   height: 16px;
   width: 16px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-form form ::-webkit-input-placeholder {
+ .blog-single-inner .blog-content .blog-form form ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: #7b7d82;
   opacity: 1;
   font-size: 16px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-form form ::-moz-placeholder {
+ .blog-single-inner .blog-content .blog-form form ::-moz-placeholder {
   /* Firefox 19+ */
   color: #7b7d82;
   opacity: 1;
   font-size: 16px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-form form :-ms-input-placeholder {
+ .blog-single-inner .blog-content .blog-form form :-ms-input-placeholder {
   /* IE 10+ */
   color: #7b7d82;
   opacity: 1;
   font-size: 16px;
 }
-.blog-post-single-page .blog-single-inner .blog-content .blog-form form :-moz-placeholder {
+ .blog-single-inner .blog-content .blog-form form :-moz-placeholder {
   /* Firefox 18- */
   color: #7b7d82;
   opacity: 1;
   font-size: 16px;
 }
-.blog-post-single-page .single-nav {
+ .single-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -6005,17 +6005,17 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   border-bottom: 1px solid #E8ECF0;
   padding: 20px 0 30px;
 }
-.blog-post-single-page .single-nav .back-next {
+ .single-nav .back-next {
   text-align: right;
 }
-.blog-post-single-page .single-nav .back-prev a,
-.blog-post-single-page .single-nav .back-next a {
+ .single-nav .back-prev a,
+ .single-nav .back-next a {
   color: #4D5765;
   font-size: 12px;
   font-weight: 600;
 }
-.blog-post-single-page .single-nav .back-prev a em,
-.blog-post-single-page .single-nav .back-next a em {
+ .single-nav .back-prev a em,
+ .single-nav .back-next a em {
   display: block;
   font-style: normal;
   font-weight: 600;
@@ -6023,20 +6023,20 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   font-size: 18px;
   line-height: 18px;
 }
-.blog-post-single-page .single-nav .back-prev a:hover,
-.blog-post-single-page .single-nav .back-next a:hover {
-  color: #3270FC;
+ .single-nav .back-prev a:hover,
+ .single-nav .back-next a:hover {
+  color: #8D1B3D;
 }
-.blog-post-single-page .single-nav .back-prev a:hover em,
-.blog-post-single-page .single-nav .back-next a:hover em {
-  color: #3270FC;
+ .single-nav .back-prev a:hover em,
+ .single-nav .back-next a:hover em {
+  color: #8D1B3D;
 }
-.blog-post-single-page .single-nav .back-prev {
+ .single-nav .back-prev {
   position: relative;
   padding-left: 55px;
   transition: all 500ms ease;
 }
-.blog-post-single-page .single-nav .back-prev i:before {
+ .single-nav .back-prev i:before {
   font-size: 23px;
   margin: 0;
   font-weight: 600;
@@ -6048,15 +6048,15 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   padding: 6px;
   border-radius: 50%;
 }
-.blog-post-single-page .single-nav .back-prev:hover i:before {
+ .single-nav .back-prev:hover i:before {
   left: -6px;
 }
-.blog-post-single-page .single-nav .back-next {
+ .single-nav .back-next {
   position: relative;
   padding-right: 55px;
   transition: all 500ms ease;
 }
-.blog-post-single-page .single-nav .back-next i:before {
+ .single-nav .back-next i:before {
   font-size: 23px;
   margin: 0;
   font-weight: 600;
@@ -6068,10 +6068,10 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   padding: 6px;
   border-radius: 50%;
 }
-.blog-post-single-page .single-nav .back-next:hover i:before {
+ .single-nav .back-next:hover i:before {
   right: -6px;
 }
-.blog-post-single-page .single-nav .social-links svg {
+ .single-nav .social-links svg {
   position: relative;
   top: 6px;
 }
@@ -6124,7 +6124,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   border: 2px solid #F5F8FD;
 }
 .react-contact-page .blog-form form input:focus {
-  border: 2px solid #3270FC;
+  border: 2px solid #8D1B3D;
   background: none;
 }
 .react-contact-page .blog-form form textarea {
@@ -6140,7 +6140,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   border: 2px solid #F5F8FD;
 }
 .react-contact-page .blog-form form textarea:focus {
-  border: 2px solid #3270FC;
+  border: 2px solid #8D1B3D;
   background: none;
 }
 .react-contact-page .blog-form form button {
@@ -6237,7 +6237,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
   color: #0F1216;
 }
 .react-contact-page .address-sec li .text a:hover {
-  color: #3270FC;
+  color: #8D1B3D;
 }
 .react-contact-page .react-contacts .back-title-sec h2 {
   font-weight: 600;
@@ -6325,11 +6325,11 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 /*****************************************************
     25. Courses Section CSS Here
 ****************************/
-body.course-single .react-breadcrumbs .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text {
+.react-breadcrumbs .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text {
   text-align: left;
 }
-body.course-single .react-breadcrumbs .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text .cate {
-  background: #3270fc;
+.react-breadcrumbs .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text .cate {
+  background: #8D1B3D;
   color: #ffffff;
   font-size: 14px;
   font-weight: 600;
@@ -6339,33 +6339,36 @@ body.course-single .react-breadcrumbs .breadcrumbs-wrap .breadcrumbs-inner .brea
   line-height: 17px;
   margin-bottom: 12px;
 }
-body.course-single .user-section {
+.user-section {
   display: flex;
   align-items: center;
   padding-bottom: 50px;
 }
-body.course-single .user-section li {
+.user-section li {
   padding-right: 40px;
   font-size: 16px;
   color: #fff;
   font-weight: 400;
 }
-body.course-single .user-section li svg {
+.user-section li svg {
   width: 18px;
   position: relative;
   top: -2px;
   margin-right: 4px;
 }
-body.course-single .user-section li.user {
+.user-section li.user {
   display: flex;
   align-items: center;
 }
-body.course-single .user-section li.user span {
+.user-section li.user span {
   padding-right: 12px;
 }
-body.course-single .user-section li.user span img {
+.user-section li.user span img {
   width: 36px;
   border-radius: 50%;
+  height: 36px;
+  object-fit: cover;
+
 }
 .react-courses__single-page .course-single-tab .nav.nav-tabs {
   padding: 0 0 1px 0;
@@ -6409,7 +6412,7 @@ body.course-single .user-section li.user span img {
   color: #737383;
 }
 .react-courses__single-page .course-single-tab #back-tab-content .back-tag a:hover {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .react-courses__single-page .course-single-tab #back-tab-content .back-tag svg {
   width: 18px;
@@ -6447,7 +6450,7 @@ body.course-single .user-section li.user span img {
   padding: 0;
 }
 .react-courses__single-page .course-single-tab #back-tab-content .back-objectives li i {
-  background: #3270fc;
+  background: #8D1B3D;
   padding: 6px;
   color: #ffffff;
   border-radius: 50%;
@@ -6546,7 +6549,7 @@ body.course-single .user-section li.user span img {
 .react-courses__single-page .course-single-tab #back-tab-content .skillbar-style2 .skillbars .skillbar-bar {
   height: 10px;
   width: 0;
-  background: #3270fc;
+  background: #8D1B3D;
   display: block;
   margin: 0;
   position: relative;
@@ -6614,7 +6617,7 @@ body.course-single .user-section li.user span img {
   line-height: 24px;
 }
 .react-courses__single-page .course-single-tab #back-tab-content .post-author:hover .info .name {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .react-courses__single-page .course-single-tab #back-tab-content .blog-form p {
   margin-top: -15px;
@@ -6644,7 +6647,7 @@ body.course-single .user-section li.user span img {
   border: 2px solid #F2F4F9;
 }
 .react-courses__single-page .course-single-tab #back-tab-content .blog-form form input:focus {
-  border: 2px solid #3270fc;
+  border: 2px solid #8D1B3D;
   background: none;
 }
 .react-courses__single-page .course-single-tab #back-tab-content .blog-form form textarea {
@@ -6660,11 +6663,11 @@ body.course-single .user-section li.user span img {
   border: 2px solid #F2F4F9;
 }
 .react-courses__single-page .course-single-tab #back-tab-content .blog-form form textarea:focus {
-  border: 2px solid #3270fc;
+  border: 2px solid #8D1B3D;
   background: none;
 }
 .react-courses__single-page .course-single-tab #back-tab-content .blog-form form button {
-  background: #3270FC;
+  background: #8D1B3D;
   font-size: 16px;
   color: #ffffff;
   border-radius: 6px;
@@ -6765,7 +6768,7 @@ body.course-single .user-section li.user span img {
   margin: 0 5px;
 }
 .back-pagination li a:hover {
-  background: #3270FC;
+  background: #8D1B3D;
   color: #ffffff;
 }
 .back-pagination li a svg {
@@ -6813,7 +6816,7 @@ body.course-single .user-section li.user span img {
   display: block;
 }
 .react-sidebar .widget.react-categories-course ul li a:hover {
-  color: #3270FC;
+  color: #8D1B3D;
 }
 .react-sidebar .widget.get-back-course {
   box-shadow: 0px 30px 50px 0px rgba(1, 11, 60, 0.1);
@@ -6831,7 +6834,7 @@ body.course-single .user-section li.user span img {
 .react-sidebar .widget.get-back-course .price li {
   font-size: 30px;
   font-weight: 700;
-  color: #3270FC;
+  color: #8D1B3D;
   line-height: 1;
 }
 .react-sidebar .widget.get-back-course .price li:nth-child(2) {
@@ -6854,7 +6857,7 @@ body.course-single .user-section li.user span img {
   border-radius: 6px;
   width: auto;
   text-align: center;
-  background: #3270FC;
+  background: #8D1B3D;
   color: #fff;
   padding: 11px 25px;
   display: block;
@@ -6882,7 +6885,7 @@ body.course-single .user-section li.user span img {
 }
 .react-sidebar .widget.get-back-course .share-course em {
   width: 45px;
-  color: #3270FC;
+  color: #8D1B3D;
   border: 2px solid rgba(15, 18, 22, 0.1);
   border-radius: 50%;
   padding: 1px 13px;
@@ -6928,7 +6931,7 @@ body.course-single .user-section li.user span img {
   opacity: 1;
 }
 .react-sidebar .widget.get-back-course .share-course:hover em {
-  background: #3270FC;
+  background: #8D1B3D;
   color: #fff;
 }
 .react-sidebar .widget.get-back-course .share-course:hover span {
@@ -6961,7 +6964,7 @@ body.course-single .user-section li.user span img {
 }
 .react-sidebar .widget.get-back-course .price__course li b.prs {
   font-size: 30px;
-  color: #3270FC;
+  color: #8D1B3D;
   font-weight: 700;
   line-height: 26px;
 }
@@ -7049,8 +7052,8 @@ body.course-single .user-section li.user span img {
   transform: scale(0);
 }
 .react-sidebar ul.recent-category input[type=checkbox]:checked + label:before {
-  background-color: #3270FC;
-  border-color: #3270FC;
+  background-color: #8D1B3D;
+  border-color: #8D1B3D;
   color: #fff;
 }
 .react-sidebar ul.recent-category input[type=checkbox]:disabled + label:before {
@@ -7094,7 +7097,7 @@ body.course-single .user-section li.user span img {
   color: #0F1216;
 }
 .react-sidebar ul.related-courses li .titles h4:hover a {
-  color: #3270FC;
+  color: #8D1B3D;
 }
 .react-sidebar ul.related-courses li .titles span {
   font-weight: 600;
@@ -7140,7 +7143,7 @@ body.course-single .user-section li.user span img {
   color: #F5BD02;
 }
 .react-sidebar ul.recent-posts li .titles h4:hover a {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .react-sidebar ul.recent-posts li .titles span {
   font-weight: 600;
@@ -7191,7 +7194,7 @@ body.course-single .user-section li.user span img {
   top: 6px;
 }
 .react-sidebar form button svg:hover {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .react-sidebar form button:hover {
   opacity: .9;
@@ -7229,7 +7232,7 @@ body.course-single .user-section li.user span img {
   border-radius: 4px;
 }
 .events-details ul.mata-tags li a:hover {
-  background: #3270FC;
+  background: #8D1B3D;
   color: #ffffff;
 }
 .events-details ul.mata-tags li:last-child {
@@ -7276,12 +7279,12 @@ body.course-single .user-section li.user span img {
   margin-right: 0;
 }
 body.event-page .react-upcoming__event .event__card .event__card--link:hover {
-  background: #3270fc;
-  border-color: #3270fc;
+  background: #8D1B3D;
+  border-color: #8D1B3D;
 }
 body.event-page .react-upcoming__event .event__card .event__card--date em,
 body.event-page .react-upcoming__event .event__card .event_time {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 /*****************************************************
     27. Student Satisfaction Section CSS Here
@@ -7358,7 +7361,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
   color: #F5BD02;
 }
 .student_satisfaction-section .author-sec a:hover {
-  background: #3270fc;
+  background: #8D1B3D;
   color: #ffffff;
 }
 .student_satisfaction-section .author-sec a:hover svg {
@@ -7414,8 +7417,8 @@ body.event-page .react-upcoming__event .event__card .event_time {
 }
 .student_satisfaction-section .owl-carousel .owl-nav [class*="owl-"]:hover {
   color: #ffffff;
-  background: #3270FC;
-  border-color: #3270FC;
+  background: #8D1B3D;
+  border-color: #8D1B3D;
 }
 .student_satisfaction-section .count__area2 {
   padding-top: 90px;
@@ -7637,10 +7640,10 @@ body.event-page .react-upcoming__event .event__card .event_time {
   -webkit-transition: all .3s ease;
   -ms-transition: all .3s ease;
   transition: all .3s ease;
-  background-color: #3270FC;
+  background-color: #8D1B3D;
 }
 .react-footer .footer-top .footer-menu li a:hover {
-  color: #3270FC;
+  color: #8D1B3D;
   margin-left: 5px;
 }
 .react-footer .footer-top .footer-menu li a:hover:after {
@@ -7741,7 +7744,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
   font-size: 18px;
 }
 .react-footer .footer-top .footer-widget .footer-address li a:hover {
-  color: #3270FC;
+  color: #8D1B3D;
 }
 .react-footer .footer-top .footer-widget .footer-address li svg {
   position: relative;
@@ -7759,7 +7762,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
   top: 1px;
 }
 .react-footer.react-footer-two .footer-top .footer3__form-1 {
-  background: #3270FC;
+  background: #8D1B3D;
 }
 .react-footer.react-footer-two .footer-top .footer3__form-1:hover {
   opacity: .9;
@@ -7767,14 +7770,14 @@ body.event-page .react-upcoming__event .event__card .event_time {
 .react-footer.react-footer-two .footer-top .footer-menu li a:hover,
 .react-footer.react-footer-two .footer-top .footer-widget .footer-address li a:hover,
 .react-footer.react-footer-two .copyright .react-copy-left a {
-  color: #3270FC;
+  color: #8D1B3D;
 }
 .react-footer.react-footer-two .footer-top .footer-menu li a::after {
-  background: #3270FC;
+  background: #8D1B3D;
 }
 .react-footer.react-footer-two .social-links li a:hover {
-  background: #3270FC;
-  border-color: #3270FC;
+  background: #8D1B3D;
+  border-color: #8D1B3D;
 }
 .react-footer .copyright {
   text-align: center;
@@ -7802,11 +7805,11 @@ body.event-page .react-upcoming__event .event__card .event_time {
   line-height: 22px;
 }
 .react-footer .copyright .react-copy-left a {
-  color: #3270FC;
+  color: #8D1B3D;
   transition: all .7s ease;
 }
 .react-footer .copyright .react-copy-left a:hover {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .react-footer .copyright .react-copy-right ul {
   margin: 0;
@@ -7838,10 +7841,10 @@ body.event-page .react-upcoming__event .event__card .event_time {
   border-color: #8D1B3D;
 }
 .react-footer.home-four .footer-top .footer3__form-1 {
-  background-color: #3270fc;
+  background-color: #8D1B3D;
 }
 .react-footer-two .footer-top .footer3__form-1 {
-  background: #3270fc;
+  background: #8D1B3D;
 }
 .react-footer-two .footer-top .footer3__form-1:hover {
   opacity: .9;
@@ -7849,14 +7852,14 @@ body.event-page .react-upcoming__event .event__card .event_time {
 .react-footer-two .footer-top .footer-menu li a:hover,
 .react-footer-two .footer-top .footer-widget .footer-address li a:hover,
 .react-footer-two .copyright .react-copy-left a {
-  color: #3270FC;
+  color: #8D1B3D;
 }
 .react-footer-two .footer-top .footer-menu li a::after {
-  background: #3270FC;
+  background: #8D1B3D;
 }
 .react-footer-two .social-links li a:hover {
-  background: #3270fc;
-  border-color: #3270fc;
+  background: #8D1B3D;
+  border-color: #8D1B3D;
 }
 .social-links li {
   display: inline-block;
@@ -7877,8 +7880,8 @@ body.event-page .react-upcoming__event .event__card .event_time {
 }
 .social-links li a:hover {
   color: #ffffff;
-  background: #3270FC;
-  border-color: #3270FC;
+  background: #8D1B3D;
+  border-color: #8D1B3D;
 }
 .social-links li:last-child {
   margin-right: 0;
@@ -7958,7 +7961,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
   z-index: 99999;
   cursor: pointer;
   display: none;
-  background: #3270FC;
+  background: #8D1B3D;
   border-radius: 3px;
 }
 #backscrollUp.home {
@@ -8012,7 +8015,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
 }
 .react-login-page .login-left-content p a {
   font-weight: 600;
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .react-login-page .login-left-content p a:hover {
   color: #55545b;
@@ -8045,7 +8048,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
 }
 .react-login-page .login-right-form form .social-links li a {
   border-radius: 50%;
-  background: #3270FC;
+  background: #8D1B3D;
   color: #ffffff;
   width: 44px;
   height: 44px;
@@ -8064,8 +8067,8 @@ body.event-page .react-upcoming__event .event__card .event_time {
   top: 3px;
 }
 .react-login-page .login-right-form form .social-links li:last-child a:hover {
-  background: #3270FC;
-  border-color: #3270FC;
+  background: #8D1B3D;
+  border-color: #8D1B3D;
   color: #fff;
 }
 .react-login-page .login-right-form form span.back-or {
@@ -8091,7 +8094,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
   border-radius: 6px;
 }
 .react-login-page .login-right-form form [type="submit"] {
-  background: #3270FC;
+  background: #8D1B3D;
   color: #ffffff;
   font-size: 16px;
   font-weight: 600;
@@ -8118,7 +8121,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
   padding-top: 20px;
 }
 .react-login-page .login-right-form form .signup a {
-  color: #3270fc;
+  color: #8D1B3D;
 }
 .react-login-page .login-right-form form .signup a:hover {
   color: #7a797f;
@@ -8262,7 +8265,80 @@ body.header-has-sticky{
   border: 2px solid #8D1B3D;
   background: none;
 }
+select,
+select option {
+  color: #000000;
+}
+select:invalid, select option[value=""] {
+  color: #c4c4c4 !important ;
+}
+
 .react-contact-page .blog-form form input:focus {
   border: 2px solid #8D1B3D;
   background: none;
+}
+
+[hidden] {
+  display: none;
+}
+.react-contact-page .blog-form form textarea:focus {
+  border: 2px solid #8D1B3D;
+  background: none;
+}
+.react-sub-shadow li ul.sub-menu{
+  padding-top: 0;
+}
+.popular__course__area .course__item .react-course-title{
+  height: 50px;
+}
+img.desktop{
+object-fit: cover;
+}
+.recent-category li.active a{
+  color: #8D1B3D !important;
+}
+.editor span{
+  margin-bottom: 25px;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #5B5F64;
+  display: block;
+}
+.editor p{
+  margin-bottom: 20px !important;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #5B5F64;
+  display: block;
+}
+.editor h1, .editor h2,.editor h3,.editor h4,.editor h5,.editor h6{
+  margin-bottom: 20px;
+}
+.editor{
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #5B5F64 !important;
+  display: block;
+}
+.editor ul{
+  margin-bottom: 20px;
+}
+.editor ul li{
+  position: relative;
+  padding-left: 18px;
+
+}
+.editor ul li:before{
+  display: block;
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #8D1B3D;
+  top: 8px;
 }

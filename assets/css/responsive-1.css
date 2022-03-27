@@ -485,9 +485,7 @@
 	.react-header.react-inner-header .react-login a {
 	    color: #0a0a0a;
 	}
-	img.desktop{
-    	display: none !important;
-    }
+
     .react-sidebar{
     	margin-top: 60px;
     }
@@ -782,6 +780,12 @@
 }
 
 @media screen and (max-width: 575px) {
+	.menu-toggle .logo img {
+		width: 174px;
+	}
+	body.header-has-sticky {
+		margin-top: 73px;
+	}
 	.react-blog-page .single-blog .blog-content {
 	    padding: 30px 25px 30px;
 	}
