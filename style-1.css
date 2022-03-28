@@ -8342,3 +8342,9 @@ object-fit: cover;
   background-color: #8D1B3D;
   top: 8px;
 }
+.accordion__area .accordion .accordion-body p{
+  padding: 0;
+}
+.accordion__area .accordion .accordion-body .editor{
+  padding: 0 15px 20px;
+}
