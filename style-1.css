@@ -134,11 +134,12 @@
 /*****************************************************
     01. General CSS Here 
 ****************************/
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700;900&display=swap');
 html,
 body {
-    font-size: 16px;
+    font-size: 17px;
     color: #252525;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Tajawal', sans-serif;
     vertical-align: baseline;
     font-weight: 400;
     overflow-x: hidden;
@@ -160,7 +161,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Tajawal', sans-serif;
     color: #F5BD02;
     margin: 0 0 26px;
     font-weight: 500;
@@ -535,7 +536,7 @@ ul {
 }
 
 .react-header .react-menus > li > a {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Tajawal', sans-serif;
 }
 
 .react-header .react-menus li a {
@@ -5441,12 +5442,18 @@ ul {
 .popular__course__area .course__item .react-course-title {
     font-size: 17px;
     line-height: 25px;
-    margin: 14px 0 30px;
+    margin: 14px 0 0;
     font-weight: 600;
     padding-left: 25px;
     padding-right: 25px;
 }
-
+.popular__course__area .course__item p{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    height: 87px;
+}
 .popular__course__area .course__item .react-course-title a {
     color: #F5BD02;
 }
@@ -9639,7 +9646,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
 }
 
 .home-sliders .slider-img img {
-    height: calc(100vh - 125px);
+    height: calc(100vh - 250px);
     object-fit: cover;
 }
 
@@ -9901,4 +9908,11 @@ img.desktop {
     max-height: 500px;
     object-fit: cover;
     width: 100%;
+}
+.fs-7{
+    font-size: 1.3rem !important;
+}
+.popular__course__area .course__item p{
+    padding-left: 25px;
+    padding-right: 25px;
 }
