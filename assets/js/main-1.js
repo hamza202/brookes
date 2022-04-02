@@ -152,7 +152,7 @@
         $('.event-slider').owlCarousel({
             loop:true,
             // rtl:true,
-            items:4,
+            items:3,
             margin:25,
             autoplay:false,
             slideSpeed : 300,
@@ -182,7 +182,7 @@
 
                 },
                 1200:{
-                    items:4,
+                    items:3,
                     dots:true,
                 },
             }

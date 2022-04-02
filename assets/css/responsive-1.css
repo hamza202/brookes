@@ -729,7 +729,7 @@
 
 @media screen and (max-width: 600px) {
 	.react-breadcrumbs .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text .breadcrumbs-title{
-		font-size: 30px;
+		font-size: 25px;
 	}
 	body.course-single .user-section li {
 	    padding-right: 12px;
@@ -785,6 +785,9 @@
 	}
 	body.header-has-sticky {
 		margin-top: 73px;
+	}
+	.user-section{
+		padding-bottom: 0;
 	}
 	.react-blog-page .single-blog .blog-content {
 	    padding: 30px 25px 30px;
