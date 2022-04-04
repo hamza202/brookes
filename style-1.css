@@ -9898,7 +9898,7 @@ img.desktop {
     content: '';
     display: block;
     background: rgb(141,27,61);
-    background: linear-gradient(90deg, rgba(141,27,61,0.7374300061821604) 0%, rgba(141,27,61,0.4181022750897234) 35%, rgba(0,212,255,0) 100%);
+    background: linear-gradient(90deg, rgba(141,27,61,0.7974300061821604) 0%, rgba(141,27,61,0.5981022750897234) 35%, rgba(0,212,255,0) 100%);
     width: 100%;
     left: 0;
     height: 100%;
