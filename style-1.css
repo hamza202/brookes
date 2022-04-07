@@ -3811,7 +3811,7 @@ ul {
 
 .react_popular_topics .item__inner .icon img {
     width: 100%;
-    height: 380px;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -9720,6 +9720,10 @@ body.header-has-sticky {
 
 .react_popular_topics .item__inner .react-content p {
     color: #fff;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
 }
 
 .img-thumbnail {

@@ -98,9 +98,10 @@
     if ($('.home-sliders').length) {
         $('.home-sliders').owlCarousel({
             loop:true,
+            autoplayTimeout:5000,
             items:1,
             margin:0,
-            autoplay:false,
+            autoplay:true,
             slideSpeed : 800,
             nav:true,
             dots:false,
@@ -154,7 +155,7 @@
             // rtl:true,
             items:3,
             margin:25,
-            autoplay:false,
+            autoplay:true,
             slideSpeed : 300,
             nav:true,
             dots:true,
