@@ -224,7 +224,7 @@ ul {
 }
 
 .text-right {
-    text-align: right;
+    text-align: left;
 }
 
 .react-absolute {
@@ -568,8 +568,8 @@ ul {
 }
 
 .react-header.react-header-two .searchbar-part .phone-part {
-    border-left: 1px solid #DFE2E5;
-    padding-left: 25px;
+    border-right: 1px solid #DFE2E5;
+    padding-right: 25px;
 }
 
 .react-header.react-header-two .searchbar-part .phone-part a {
@@ -589,7 +589,7 @@ ul {
 
 .react-header.react-header-two .react-logins {
     border: none;
-    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .react-header.react-header-two .react-logins a {
@@ -617,12 +617,12 @@ ul {
 }
 
 .react-header.react-header-three .cate-part svg {
-    margin-right: -16px;
+    margin-left: -16px;
     margin-top: 4px;
 }
 
 .react-header.react-header-three .cate-part .react-category-menu {
-    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .react-header.react-header-three .cate-part .react-category-menu li {
@@ -648,12 +648,12 @@ ul {
 
 .react-header.react-header-three .cate-part .react-category-menu li ul {
     position: absolute;
-    left: -20px;
+    right: -20px;
     top: 100%;
     width: 172px;
     transform: scaleY(0);
     transition: all 0.4s ease-in-out 0s;
-    transform-origin: 0 0 0;
+    transform-origin: 100% 0 0;
     opacity: 0;
     visibility: hidden;
     padding: 20px 20px 23px 20px;
@@ -745,10 +745,10 @@ ul {
     width: 100%;
     -webkit-animation: stickyanimations 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     animation: stickyanimations 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-    box-shadow: 10px 0 20px rgba(8, 0, 41, 0.08);
+    box-shadow: -10px 0 20px rgba(8, 0, 41, 0.08);
     top: 0;
-    left: 0;
     right: 0;
+    left: 0;
     z-index: 999;
 }
 
@@ -770,7 +770,7 @@ ul {
 .react-header .searchbar-part .search-form {
     background: #F4F5F5;
     border-radius: 6px;
-    padding: 7px 18px 9px 25px;
+    padding: 7px 25px 9px 18px;
 }
 
 .react-header .searchbar-part .search-form [type="text"] {
@@ -791,7 +791,7 @@ ul {
     font-size: 16px;
     font-weight: 600;
     line-height: 20px;
-    border-left: 1px solid #DFE2E5;
+    border-right: 1px solid #DFE2E5;
     padding: 0 30px;
 }
 
@@ -805,7 +805,7 @@ ul {
 
 .react-header .searchbar-part .react-login svg {
     color: #F5BD02;
-    margin-right: 3px;
+    margin-left: 3px;
     position: relative;
     top: -3px;
     width: 19px;
@@ -823,16 +823,16 @@ ul {
 }
 
 .react-header .topbar-area.style1 .topbar-contact ul li {
-    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .react-header .topbar-area.style1 .topbar-contact ul li svg {
     width: 18px;
-    padding-right: 2px;
+    padding-left: 2px;
 }
 
 .react-header .topbar-area.style1 .topbar-contact ul li:first-child {
-    margin-left: 0;
+    margin-right: 0;
 }
 
 .react-header .topbar-area.style1 li a {
@@ -844,7 +844,7 @@ ul {
 }
 
 .react-header .topbar-area.style1 ul.social-links li {
-    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .react-header .topbar-area.style1 ul.social-links li a {
@@ -888,9 +888,9 @@ ul {
 .event__video-btn--play {
     position: absolute;
     z-index: 1;
-    left: 50%;
+    right: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(50%, -50%);
 }
 
 .event__video-btn--play-btn {
@@ -918,7 +918,7 @@ ul {
     height: 120px;
     width: 120px;
     position: absolute;
-    left: -15px;
+    right: -15px;
     top: -15px;
     border: 1px solid rgba(255, 255, 255, 0.302);
     border-radius: 50%;
@@ -933,7 +933,7 @@ ul {
     height: 100%;
     background-color: #fff;
     top: 0;
-    left: 0;
+    right: 0;
     border-radius: 50%;
     transition: all 0.3s ease-in-out;
 }
@@ -993,13 +993,13 @@ ul {
 
 .react__shape__abd {
     position: absolute;
-    right: 51.5%;
+    left: 51.5%;
     top: 45%;
 }
 
 .react__shape__ab {
     position: absolute;
-    right: 54.5%;
+    left: 54.5%;
     top: 28%;
     -webkit-animation: slide-top 5000ms linear infinite alternate;
     animation: slide-top 5000ms linear infinite alternate;
@@ -1007,7 +1007,7 @@ ul {
 
 .react__shape__abc {
     position: absolute;
-    right: 39%;
+    left: 39%;
     top: 80%;
     -webkit-animation: slide-top 5000ms linear infinite alternate;
     animation: slide-top 5000ms linear infinite alternate;
@@ -1026,7 +1026,7 @@ ul {
 
 .home-banner-part .react__shape__1 {
     position: absolute;
-    left: 100px;
+    right: 100px;
     top: 80px;
     -webkit-animation: slide-top 5000ms linear infinite alternate;
     animation: slide-top 5000ms linear infinite alternate;
@@ -1034,7 +1034,7 @@ ul {
 
 .home-banner-part .react__shape__2 {
     position: absolute;
-    left: -240px;
+    right: -240px;
     bottom: 80px;
     -webkit-animation: slide-top 5500ms linear infinite alternate-reverse;
     animation: slide-top 5500ms linear infinite alternate-reverse;
@@ -1042,7 +1042,7 @@ ul {
 
 .home-banner-part .react__shape__3 {
     position: absolute;
-    right: -35px;
+    left: -35px;
     top: 80px;
     -webkit-animation: slide-top 5500ms linear infinite alternate-reverse;
     animation: slide-top 5500ms linear infinite alternate-reverse;
@@ -1050,7 +1050,7 @@ ul {
 
 .home-banner-part .react__shape__4 {
     position: absolute;
-    right: 250px;
+    left: 250px;
     bottom: 190px;
     -webkit-animation: rotate-center 6600ms ease-in-out infinite alternate both;
     animation: rotate-center 6600ms ease-in-out infinite alternate both;
@@ -1058,7 +1058,7 @@ ul {
 
 .home-banner-part .react__shape__5 {
     position: absolute;
-    right: 460px;
+    left: 460px;
     top: 160px;
 }
 
@@ -1089,7 +1089,7 @@ ul {
 .home-banner-part .react__hero__card {
     position: absolute;
     top: 280px;
-    right: 172px;
+    left: 172px;
     width: 310px;
     background-color: #ffffff;
     border: 1px solid #ebebf1;
@@ -1113,7 +1113,7 @@ ul {
     width: 50px;
     height: 50px;
     position: absolute;
-    right: 29px;
+    left: 29px;
     bottom: -23px;
     display: inline-block;
     color: #ffffff;
@@ -1168,7 +1168,7 @@ ul {
     font-weight: 500;
     font-size: 15px;
     color: #4b4c57;
-    padding-left: 7px;
+    padding-right: 7px;
 }
 
 .home-banner-part .react__hero__card .hero__card-content .hero__card-icon .hero__card-icon--2 svg {
@@ -1184,7 +1184,7 @@ ul {
     font-weight: 500;
     font-size: 15px;
     color: #4b4c57;
-    padding-left: 7px;
+    padding-right: 7px;
 }
 
 .home-banner-part .react__hero__card .hero__card-content .hero__card-icon .react__user img {
@@ -1198,8 +1198,8 @@ ul {
         transform: rotate(0);
     }
     100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
     }
 }
 
@@ -1209,8 +1209,8 @@ ul {
         transform: rotate(0);
     }
     100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
     }
 }
 
@@ -1297,8 +1297,8 @@ ul {
     line-height: 25px;
     font-weight: 600;
     font-size: 16px;
-    text-align: left;
-    margin-left: 10px;
+    text-align: right;
+    margin-right: 10px;
     font-style: normal;
     position: relative;
     top: -9px;
@@ -1336,7 +1336,7 @@ ul {
     display: inline-block;
     margin-top: 0px;
     line-height: 20px;
-    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .hero4__area .hero4__content .hero4-btn:hover {
@@ -1346,7 +1346,7 @@ ul {
 
 .hero4__area .hero4__image {
     padding-top: 90px;
-    padding-left: 56px;
+    padding-right: 56px;
 }
 
 .hero4__area .hero4__image-1 {
@@ -1357,7 +1357,7 @@ ul {
 .hero4__area .hero4__image-2 {
     position: absolute;
     top: 50%;
-    right: 17.4%;
+    left: 17.4%;
     -webkit-animation: hero3-image 3s linear infinite alternate;
     -moz-animation: hero3-image 3s linear infinite alternate;
     -o-animation: hero3-image 3s linear infinite alternate;
@@ -1370,7 +1370,7 @@ ul {
     box-shadow: 0px 30px 40px 0px rgba(122, 0, 39, 0.2);
     background-color: #fd467f;
     top: 69.5%;
-    right: 71.5%;
+    left: 71.5%;
     width: 150px;
     height: 150px;
     -webkit-animation: hero3-image 3s linear infinite alternate;
@@ -1386,7 +1386,7 @@ ul {
 
 .hero4__area .hero4__shape-1 {
     bottom: 60%;
-    left: 13%;
+    right: 13%;
     -webkit-animation: hero-leaf 3s linear infinite alternate;
     -moz-animation: hero-leaf 3s linear infinite alternate;
     -o-animation: hero-leaf 3s linear infinite alternate;
@@ -1395,7 +1395,7 @@ ul {
 
 .hero4__area .hero4__shape-2 {
     top: 50%;
-    left: 0%;
+    right: 0%;
     -webkit-animation: hero-leaf-2 3s linear infinite alternate;
     -moz-animation: hero-leaf-2 3s linear infinite alternate;
     -o-animation: hero-leaf-2 3s linear infinite alternate;
@@ -1404,7 +1404,7 @@ ul {
 
 .hero4__area .hero4__shape-3 {
     top: 53%;
-    left: 54%;
+    right: 54%;
     -webkit-animation: hero-leaf-2 3s linear infinite alternate;
     -moz-animation: hero-leaf-2 3s linear infinite alternate;
     -o-animation: hero-leaf-2 3s linear infinite alternate;
@@ -1413,7 +1413,7 @@ ul {
 
 .hero4__area .hero4__shape-4 {
     top: 38%;
-    right: 13%;
+    left: 13%;
     -webkit-animation: hero-leaf-2 3s linear infinite alternate;
     -moz-animation: hero-leaf-2 3s linear infinite alternate;
     -o-animation: hero-leaf-2 3s linear infinite alternate;
@@ -1422,7 +1422,7 @@ ul {
 
 .hero4__area .hero4__shape-5 {
     top: 76%;
-    right: 12%;
+    left: 12%;
     -webkit-animation: hero-leaf-2 3s linear infinite alternate;
     -moz-animation: hero-leaf-2 3s linear infinite alternate;
     -o-animation: hero-leaf-2 3s linear infinite alternate;
@@ -1458,7 +1458,7 @@ ul {
 
 @keyframes hero-leaf-4 {
     0% {
-        transform: translateX(-30px);
+        transform: translateX(30px);
     }
     100% {
         transform: translateX(0px);
@@ -1496,7 +1496,7 @@ ul {
 
 .react-course-filter .react-filter button {
     border: none;
-    margin: 0 0 0 15px;
+    margin: 0 15px 0 0;
     color: #5B5F64;
     padding: 4px 30px 6px;
     border-radius: 6px;
@@ -1554,12 +1554,12 @@ ul {
     color: #fff;
     border-radius: 4px;
     position: absolute;
-    right: 22px;
+    left: 22px;
     top: 20px;
 }
 
 .react-course-filter .single-studies .inner-course .case-content {
-    padding: 30px 38px 20px 35px;
+    padding: 30px 35px 20px 38px;
 }
 
 .react-course-filter .single-studies .inner-course .case-content .case-title {
@@ -1583,7 +1583,7 @@ ul {
 }
 
 .react-course-filter .single-studies .inner-course .case-content .react__user img {
-    margin-right: 12px;
+    margin-left: 12px;
     height: 30px;
 }
 
@@ -1595,7 +1595,7 @@ ul {
 }
 
 .react-course-filter .single-studies .inner-course .case-content .react-ratings li:last-child {
-    padding-right: 0;
+    padding-left: 0;
 }
 
 .react-course-filter .single-studies .inner-course .case-content .react-ratings li.price {
@@ -1614,11 +1614,11 @@ ul {
     font-size: 16px;
     color: #5B5F64;
     font-weight: 400;
-    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .react-course-filter .single-studies .inner-course .case-content ul li svg {
-    margin-right: 10px;
+    margin-left: 10px;
     width: 20px;
 }
 
@@ -1629,20 +1629,20 @@ ul {
 .owl-controls {
     position: absolute;
     bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 50%;
+    transform: translateX(50%);
     width: 1170px;
 }
 
 .owl-controls .owl-dots {
     position: absolute;
     bottom: 0;
-    left: 0;
+    right: 0;
 }
 
 .owl-controls .owl-dots .owl-dot {
     display: inline-block;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .popular__course__area .owl-dots {
@@ -1652,12 +1652,12 @@ ul {
 
 .popular__course__area .owl-dots .owl-dot {
     display: inline-block;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .popular__course__area .owl-dots .owl-dot {
     display: inline-block;
-    margin-right: 10px;
+    margin-left: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -1691,11 +1691,11 @@ ul {
 }
 
 .owl-controls .owl-dots .owl-dot:last-child {
-    border-right: none;
+    border-left: none;
 }
 
 .popular__course__area .owl-dots .owl-dot:last-child {
-    border-right: none;
+    border-left: none;
 }
 
 .popular__course__area .owl-carousel .owl-nav {
@@ -1769,7 +1769,7 @@ ul {
     position: absolute;
     display: block;
     top: 43%;
-    right: unset;
+    left: unset;
     width: 100%;
     opacity: 1;
     transition: all 0.5s ease 0s;
@@ -1777,7 +1777,7 @@ ul {
 
 .home-sliders .owl-nav [class*="owl-"] {
     position: absolute;
-    left: 20px;
+    right: 20px;
     display: inline-block;
     font-size: 0;
     width: 70px;
@@ -1794,8 +1794,8 @@ ul {
     content: "\35";
     font-family: ElegantIcons;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 50%;
+    transform: translateX(50%);
     font-size: 45px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.48);
@@ -1803,8 +1803,8 @@ ul {
 }
 
 .home-sliders .owl-nav [class*="owl-"].owl-next {
-    left: auto;
-    right: 70px;
+    right: auto;
+    left: 70px;
 }
 
 .home-sliders .owl-nav [class*="owl-"].owl-next span {
@@ -1812,8 +1812,8 @@ ul {
 }
 
 .home-sliders .owl-nav [class*="owl-"].owl-prev {
-    left: 70px;
-    right: auto;
+    right: 70px;
+    left: auto;
 }
 
 .home-sliders .owl-nav [class*="owl-"].owl-prev:before {
@@ -1831,23 +1831,23 @@ ul {
 }
 
 .home-sliders .owl-nav [class*="owl-"]:hover:before {
-    color: #8D1B3D;
+    color: #fff;
 }
 
 .home-sliders .event__video-btn--play {
-    right: 28%;
-    left: auto;
+    left: 28%;
+    right: auto;
 }
 
 .home-sliders .event__video-btn--play em {
     position: absolute;
     width: 250px;
     color: #ffffff;
-    margin-left: 50px;
+    margin-right: 50px;
     line-height: 25px;
     font-weight: 700;
     font-size: 20px;
-    text-align: left;
+    text-align: right;
     margin-top: 20px;
     font-style: normal;
 }
@@ -1855,7 +1855,7 @@ ul {
 .home-sliders .ellipse {
     position: absolute;
     bottom: 0;
-    left: 0;
+    right: 0;
     z-index: 100;
 }
 
@@ -1866,8 +1866,8 @@ ul {
 .home_four-section .section-title {
     position: absolute;
     top: 70px;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 50%;
+    transform: translateX(50%);
     font-size: 120px;
     color: #eef2f8;
     font-weight: 700;
@@ -1908,7 +1908,7 @@ ul {
 .social-links.home-four-social-links {
     position: absolute !important;
     top: 50%;
-    left: -170px;
+    right: -170px;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
@@ -1927,7 +1927,7 @@ ul {
 
 @media (max-width: 1680px) {
     .social-links.home-four-social-links {
-        left: 0;
+        right: 0;
         flex-direction: row !important;
         top: 400px;
     }
@@ -1977,7 +1977,7 @@ ul {
 .home-four-sliders .hero {
     max-width: 600px;
     bottom: 40px;
-    right: 15%;
+    left: 15%;
 }
 
 .home-four-sliders .hero img {
@@ -1992,14 +1992,14 @@ ul {
 .home-four-sliders .ellipse {
     position: absolute;
     bottom: -1px;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 50%;
+    transform: translateX(50%);
 }
 
 .home-four-sliders .ellipse i {
     position: absolute;
     top: 50%;
-    left: 130px;
+    right: 130px;
     animation: upDown 2s infinite ease-in-out;
     cursor: pointer;
 }
@@ -2054,13 +2054,13 @@ ul {
 
 .home-four-sliders .owl-nav {
     position: absolute;
-    right: 0;
+    left: 0;
     width: 300px;
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
 }
 
 .home-four-sliders .owl-nav .owl-prev {
-    margin-left: -100px !important;
+    margin-right: -100px !important;
 }
 
 .home-four-sliders .owl-nav .owl-prev::before {
@@ -2078,7 +2078,7 @@ ul {
 }
 
 .home-four-sliders .owl-nav .owl-next {
-    margin-right: -100px !important;
+    margin-left: -100px !important;
 }
 
 .home-four-sliders .owl-nav .owl-next::before {
@@ -2099,8 +2099,8 @@ ul {
     content: '';
     position: absolute;
     top: 33px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    right: 50%;
+    transform: translate(50%, -50%);
     width: 40px;
     height: 1px;
     background: #999999;
@@ -2108,13 +2108,13 @@ ul {
 
 @media (max-width: 1630px) {
     .home-four-sliders .owl-nav {
-        right: -50px;
+        left: -50px;
     }
 }
 
 @media (max-width: 1490px) {
     .home-four-sliders .owl-nav {
-        right: -100px;
+        left: -100px;
     }
 }
 
@@ -2233,7 +2233,7 @@ ul {
     position: relative;
     font-size: 21px;
     font-weight: 600;
-    margin-right: 60px;
+    margin-left: 60px;
 }
 
 .catagories-section .catagory-item .content .item-title a {
@@ -2248,7 +2248,7 @@ ul {
     content: '';
     position: absolute;
     top: 20px;
-    right: -40px;
+    left: -40px;
     width: 25px;
     height: 1px;
     background: #3772ff;
@@ -2295,7 +2295,7 @@ ul {
     max-width: 320px;
     position: absolute;
     top: 100px;
-    right: -160px;
+    left: -160px;
 }
 
 .course-section .course-inner .course-hero .phone-picture img {
@@ -2341,7 +2341,7 @@ ul {
 
 .course-section .course-inner .course-contents .course-item .course-item-icon {
     width: 80px;
-    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .course-section .course-inner .course-contents .course-item .course-item-icon img {
@@ -2362,7 +2362,7 @@ ul {
 @media (max-width: 1650px) {
     .course-section .phone-picture {
         max-width: 300px !important;
-        right: -40px !important;
+        left: -40px !important;
     }
 }
 
@@ -2373,7 +2373,7 @@ ul {
 
     .course-section .course-inner .course-hero .phone-picture {
         max-width: 260px !important;
-        right: 0px !important;
+        left: 0px !important;
     }
 
     .course-section .course-inner .course-contents {
@@ -2388,7 +2388,7 @@ ul {
 
     .course-section .course-inner .course-contents .course-item-icon {
         max-width: 60px;
-        margin-right: 25px !important;
+        margin-left: 25px !important;
     }
 
     .course-section .course-inner .course-contents .course-item {
@@ -2497,7 +2497,7 @@ ul {
 .trending-section .trending-card .time {
     position: absolute;
     bottom: 130px;
-    right: 20px;
+    left: 20px;
     background: white;
     box-shadow: 0px 0px 30px 0px rgba(50, 112, 252, 0.15);
     display: grid;
@@ -2648,44 +2648,19 @@ ul {
 .slider-prev-btn {
     position: absolute;
     top: 55%;
-    left: 110px;
-    color: #999999;
-    font-size: 16px;
-    font-weight: 400;
-    transform: rotate(270deg);
-}
-
-.slider-prev-btn i {
-    color: #999999;
-    margin-right: 10px;
-}
-
-.slider-prev-btn::before {
-    content: '';
-    position: absolute;
-    right: -60px;
-    top: 13px;
-    width: 30px;
-    height: 1px;
-    background: #999999;
-}
-
-.slider-next-btn {
-    position: absolute;
-    top: 50%;
     right: 110px;
     color: #999999;
     font-size: 16px;
     font-weight: 400;
-    transform: rotate(270deg);
+    transform: rotate(-270deg);
 }
 
-.slider-next-btn i {
+.slider-prev-btn i {
     color: #999999;
     margin-left: 10px;
 }
 
-.slider-next-btn::before {
+.slider-prev-btn::before {
     content: '';
     position: absolute;
     left: -60px;
@@ -2695,11 +2670,36 @@ ul {
     background: #999999;
 }
 
+.slider-next-btn {
+    position: absolute;
+    top: 50%;
+    left: 110px;
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+    transform: rotate(-270deg);
+}
+
+.slider-next-btn i {
+    color: #999999;
+    margin-right: 10px;
+}
+
+.slider-next-btn::before {
+    content: '';
+    position: absolute;
+    right: -60px;
+    top: 13px;
+    width: 30px;
+    height: 1px;
+    background: #999999;
+}
+
 @media (max-width: 1690px) {
     .slider-navigation {
         position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
+        right: 50%;
+        transform: translateX(50%);
         width: 300px;
         display: flex;
         justify-content: space-between;
@@ -2713,11 +2713,11 @@ ul {
     }
 
     .slider-next-btn {
-        transform: translateX(100px);
+        transform: translateX(-100px);
     }
 
     .slider-prev-btn {
-        transform: translateX(-100px);
+        transform: translateX(100px);
     }
 }
 
@@ -2771,7 +2771,7 @@ ul {
 }
 
 .students-section .students-inner .contents .followers .joined {
-    margin-right: 50px;
+    margin-left: 50px;
 }
 
 @media (max-width: 1200px) {
@@ -2841,7 +2841,7 @@ ul {
 }
 
 .testimonials-section .testimonials-card .profile .dp {
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .testimonials-section .testimonials-card .profile .identity .name {
@@ -2882,7 +2882,7 @@ ul {
     }
 
     .testimonials-section .testimonials-card .profile .dp {
-        margin-right: 20px;
+        margin-left: 20px;
     }
 
     .testimonials-section .testimonials-card .profile .identity .name {
@@ -2935,7 +2935,7 @@ ul {
 .events-section .events-section-title .events-view-all i {
     color: #999999;
     font-size: 10px;
-    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .events-section .event-item {
@@ -3103,7 +3103,7 @@ ul {
 
 .blog-section .maximized-part .read-more i {
     font-size: 12px;
-    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .blog-section .minimized-part .blog-item {
@@ -3115,7 +3115,7 @@ ul {
 
 .blog-section .minimized-part .blog-item .blog-picture {
     max-width: 230px;
-    margin-right: 39px;
+    margin-left: 39px;
     overflow: hidden;
 }
 
@@ -3158,7 +3158,7 @@ ul {
 
 .blog-section .minimized-part .blog-item .content .read-more i {
     font-size: 12px;
-    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .blog-section .section-title {
@@ -3245,8 +3245,8 @@ ul {
     width: 300px;
     height: 300px;
     bottom: -21px;
-    left: 0;
     right: 0;
+    left: 0;
     background: #eef4fe;
     border-radius: 50%;
     margin: 0 auto;
@@ -3290,7 +3290,7 @@ ul {
 }
 
 .category__area .category__wrapper img:not(:last-child) {
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .category__area .category__wrapper h4 {
@@ -3323,7 +3323,7 @@ ul {
     z-index: 1;
     transition: all 0.5s ease 0s;
     cursor: pointer;
-    border-left: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
     border-radius: 6px;
 }
 
@@ -3399,7 +3399,7 @@ ul {
 }
 
 .hero3__area .about__content ul li .icon {
-    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .hero3__area .about__content ul li .icon img {
@@ -3467,12 +3467,12 @@ ul {
 .hero3__area .hero3__content .search-form {
     background: #fff;
     border-radius: 0px;
-    padding: 14px 18px 16px 25px;
+    padding: 14px 25px 16px 18px;
     box-shadow: 0px 20px 20px rgba(0, 14, 32, 0.1);
     max-width: 570px;
     margin: 40px auto 25px;
     position: relative;
-    border-left: 3px solid #8D1B3D;
+    border-right: 3px solid #8D1B3D;
 }
 
 .hero3__area .hero3__content .search-form [type="text"] {
@@ -3489,7 +3489,7 @@ ul {
     background: none;
     padding: 0;
     position: absolute;
-    right: 20px;
+    left: 20px;
 }
 
 .hero3__area .hero3__content .hero3__paragraph {
@@ -3511,9 +3511,9 @@ ul {
 }
 
 .hero3__image {
-    margin-left: 0;
+    margin-right: 0;
     position: absolute;
-    right: -10%;
+    left: -10%;
     top: 8%;
 }
 
@@ -3524,7 +3524,7 @@ ul {
 .hero3__image-2 {
     position: absolute;
     top: 56%;
-    right: -22%;
+    left: -22%;
     -webkit-animation: hero3-image 3s linear infinite alternate;
     -moz-animation: hero3-image 3s linear infinite alternate;
     -o-animation: hero3-image 3s linear infinite alternate;
@@ -3538,7 +3538,7 @@ ul {
 
 .hero3__shape-1 {
     top: 32%;
-    left: 2%;
+    right: 2%;
     -webkit-animation: hero-leaf 3s linear infinite alternate;
     -moz-animation: hero-leaf 3s linear infinite alternate;
     -o-animation: hero-leaf 3s linear infinite alternate;
@@ -3547,7 +3547,7 @@ ul {
 
 .hero3__shape-2 {
     top: 44%;
-    left: 4.5%;
+    right: 4.5%;
     -webkit-animation: hero-leaf-2 3s linear infinite alternate;
     -moz-animation: hero-leaf-2 3s linear infinite alternate;
     -o-animation: hero-leaf-2 3s linear infinite alternate;
@@ -3556,7 +3556,7 @@ ul {
 
 .hero3__shape-3 {
     top: 57%;
-    left: 72%;
+    right: 72%;
     -webkit-animation: hero-leaf-4 3s linear infinite alternate;
     -moz-animation: hero-leaf-4 3s linear infinite alternate;
     -o-animation: hero-leaf-4 3s linear infinite alternate;
@@ -3565,7 +3565,7 @@ ul {
 
 .hero3__shape-4 {
     top: 14.5%;
-    right: 19%;
+    left: 19%;
     -webkit-animation: hero-leaf-4 3s linear infinite alternate;
     -moz-animation: hero-leaf-4 3s linear infinite alternate;
     -o-animation: hero-leaf-4 3s linear infinite alternate;
@@ -3574,7 +3574,7 @@ ul {
 
 .hero3__shape-5 {
     top: 69%;
-    right: 9%;
+    left: 9%;
     -webkit-animation: hero-leaf 3s linear infinite alternate;
     -moz-animation: hero-leaf 3s linear infinite alternate;
     -o-animation: hero-leaf 3s linear infinite alternate;
@@ -3583,7 +3583,7 @@ ul {
 
 .hero3__shape-6 {
     top: 30%;
-    right: 0%;
+    left: 0%;
     -webkit-animation: hero-leaf-2 3s linear infinite alternate;
     -moz-animation: hero-leaf-2 3s linear infinite alternate;
     -o-animation: hero-leaf-2 3s linear infinite alternate;
@@ -3619,7 +3619,7 @@ ul {
 
 @keyframes hero-leaf-4 {
     0% {
-        transform: translateX(-30px);
+        transform: translateX(30px);
     }
     100% {
         transform: translateX(0px);
@@ -3628,13 +3628,13 @@ ul {
 
 @keyframes upDown {
     0% {
-        transform: translate(-50%, -50%);
+        transform: translate(50%, -50%);
     }
     50% {
-        transform: translate(-50%, -30%);
+        transform: translate(50%, -30%);
     }
     100% {
-        transform: translate(-50%, -50%);
+        transform: translate(50%, -50%);
     }
 }
 
@@ -3658,8 +3658,8 @@ ul {
 .react_populars_topics .item__inner:before {
     position: absolute;
     content: "";
-    left: 0px;
-    right: 0;
+    right: 0px;
+    left: 0;
     top: -3px;
     border-radius: 6px 6px 0 0;
     height: 8px;
@@ -3702,7 +3702,7 @@ ul {
 }
 
 .react_populars_topics.react_populars_topics .item__inner {
-    text-align: left;
+    text-align: right;
 }
 
 .react_populars_topics.react_populars_topics2 .item__inner {
@@ -3712,7 +3712,7 @@ ul {
     position: relative;
     transition: all 0.5s ease 0s;
     margin-bottom: 30px;
-    text-align: left;
+    text-align: right;
     box-shadow: 0px 30px 60px rgba(15, 18, 22, 0.1);
 }
 
@@ -3818,22 +3818,22 @@ ul {
 .react_popular_topics .item__inner:before {
     position: absolute;
     content: "";
-    left: 0;
     right: 0;
+    left: 0;
     top: 0;
     border-radius: 6px 6px 0 0;
     height: 100%;
     width: 100%;
     z-index: 1;
-    background: linear-gradient(180deg, rgba(15, 18, 22, 0) 46.67%, rgba(15, 18, 22, 0.9) 91%);
+    background: linear-gradient(-180deg, rgba(15, 18, 22, 0) 46.67%, rgba(15, 18, 22, 0.9) 91%);
     transition: all 0.5s ease 0s;
     bottom: 0;
 }
 
 .react_popular_topics .item__inner .react-content {
     position: absolute;
-    left: 20px;
     right: 20px;
+    left: 20px;
     bottom: 20px;
     z-index: 2;
 }
@@ -3894,7 +3894,7 @@ ul {
 
 .about__area.about__area_one .about__content {
     padding-top: 60px;
-    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .about__area.about__area_one .about__paragraph {
@@ -3956,9 +3956,9 @@ ul {
 }
 
 .about__area.about__area_one ul li.last-li {
-    background: url(assets/images/about/comment-1.png) no-repeat left top;
-    padding-left: 72px;
-    margin-left: 30px;
+    background: url(assets/images/about/comment-1.png) no-repeat right top;
+    padding-right: 72px;
+    margin-right: 30px;
 }
 
 .about__area.about__area_one ul li.last-li em {
@@ -3996,7 +3996,7 @@ ul {
 
 .about2__area .react__shape__1 {
     position: absolute;
-    left: -8%;
+    right: -8%;
     top: 57%;
     -webkit-animation: slide-top 5000ms linear infinite alternate;
     animation: slide-top 5000ms linear infinite alternate;
@@ -4004,7 +4004,7 @@ ul {
 }
 
 .about2__area .about__content {
-    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .about2__area .about__content .about__paragraph {
@@ -4015,21 +4015,21 @@ ul {
 
 .about2__area .react__shape__2 {
     position: absolute;
-    right: 60px;
+    left: 60px;
     bottom: -30px;
     z-index: -1;
 }
 
 .about2__area .react__shape__11 {
     position: absolute;
-    left: -22px;
+    right: -22px;
     top: -23px;
     z-index: -1;
 }
 
 .about2__area .react__shape__33 {
     position: absolute;
-    right: -13px;
+    left: -13px;
     top: 60px;
     -webkit-animation: slide-top 5000ms linear infinite alternate-reverse;
     animation: slide-top 5000ms linear infinite alternate-reverse;
@@ -4071,18 +4071,18 @@ ul {
 }
 
 .about2__area ul li i {
-    margin-right: 10px;
+    margin-left: 10px;
     position: relative;
     background: rgba(210, 9, 60, 0.1);
     padding: 8px;
     color: #F5BD02;
     border-radius: 50%;
     display: inline-block;
-    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .about2__area.about2__area .about__content {
-    padding-left: 0;
+    padding-right: 0;
 }
 
 .about2__area.about2__area .about__content h6 {
@@ -4166,7 +4166,7 @@ ul {
 
 .react-breadcrumbs .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text .back-nav ul li:after {
     content: "";
-    margin: 0 6px 0 12px;
+    margin: 0 12px 0 6px;
     background: #ffffff;
     width: 7px;
     height: 7px;
@@ -4199,7 +4199,7 @@ ul {
 }
 
 .react-breadcrumbs.react-breadcrumbs-single .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text {
-    text-align: left;
+    text-align: right;
 }
 
 .react-breadcrumbs.react-breadcrumbs-blog-single .container {
@@ -4207,7 +4207,7 @@ ul {
 }
 
 .react-breadcrumbs.react-breadcrumbs-blog-single .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text {
-    text-align: left;
+    text-align: right;
 }
 
 .react-breadcrumbs.react-breadcrumbs-blog-single .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text span {
@@ -4220,14 +4220,14 @@ ul {
 .react-breadcrumbs.react-breadcrumbs-blog-single .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text .back-nav ul li {
     font-size: 14px;
     color: #ffffff;
-    margin-right: 30px;
+    margin-left: 30px;
     opacity: 1;
 }
 
 .react-breadcrumbs.react-breadcrumbs-blog-single .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text .back-nav ul li svg {
     width: 17px;
     height: 17px;
-    margin-right: 4px;
+    margin-left: 4px;
     position: relative;
     top: -2px;
 }
@@ -4324,18 +4324,18 @@ ul {
     color: #5B5F64;
     font-size: 16px;
     line-height: 20px;
-    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .react_featured_online .item__inner .react-content ul li svg {
     width: 18px;
     position: relative;
     top: -2px;
-    margin-right: 2px;
+    margin-left: 2px;
 }
 
 .react_featured_online .item__inner .react-content ul li:last-child {
-    padding-right: 0;
+    padding-left: 0;
 }
 
 .react_featured_online .item__inner:hover {
@@ -4420,7 +4420,7 @@ ul {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     position: absolute;
-    right: 28px;
+    left: 28px;
     top: 45%;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
@@ -4447,13 +4447,13 @@ ul {
 }
 
 .accordion__area .accordion__shape-1 {
-    left: 39%;
+    right: 39%;
     bottom: -14%;
     z-index: -1;
 }
 
 .accordion__area .accordion__shape-1a {
-    left: 7%;
+    right: 7%;
     top: 72%;
     z-index: 1;
 }
@@ -4498,8 +4498,8 @@ ul {
 }
 
 .instructor__area .container .instructors_lefts {
-    text-align: left;
-    padding-left: 120px;
+    text-align: right;
+    padding-right: 120px;
 }
 
 .instructor__area .container .instructors_lefts h2 {
@@ -4589,7 +4589,7 @@ ul {
 }
 
 .instructor__area .instructor__content-3 ul li:not(:last-child) {
-    margin-right: 7px;
+    margin-left: 7px;
 }
 
 .instructor__area .instructor__content-3 ul li a {
@@ -4637,8 +4637,8 @@ ul {
 .instructors___page .instructor__content .instructor__image .content__hover {
     position: absolute;
     bottom: -50px;
-    right: 0px;
     left: 0px;
+    right: 0px;
     padding: 25px;
     opacity: 0;
     transition: all .5s ease;
@@ -4654,7 +4654,7 @@ ul {
 .instructors___page .instructor__content .instructor__image .content__hover ul {
     display: flex;
     justify-content: start;
-    margin-left: -5px;
+    margin-right: -5px;
     margin-top: 20px;
 }
 
@@ -4684,11 +4684,11 @@ ul {
 
 .instructors___page .instructor__content .instructor__image:before {
     content: "";
-    background: linear-gradient(180deg, rgba(15, 18, 22, 0) 46.67%, rgba(15, 18, 22, 0.9) 91%);
+    background: linear-gradient(-180deg, rgba(15, 18, 22, 0) 46.67%, rgba(15, 18, 22, 0.9) 91%);
     position: absolute;
     bottom: 0;
-    right: 0;
     left: 0;
+    right: 0;
     width: 100%;
     height: 100%;
     border-radius: 4px;
@@ -4796,7 +4796,7 @@ ul {
 }
 
 .profile-page .profile-top .user-section li {
-    padding-right: 35px;
+    padding-left: 35px;
     line-height: 1.5;
     font-size: 16px;
     color: #0F1216;
@@ -4817,7 +4817,7 @@ ul {
 
 .profile-page .profile-top .user-section li.social a {
     color: #898a93;
-    margin: 0 6px 0 0;
+    margin: 0 0 0 6px;
     font-size: 13px;
 }
 
@@ -4845,7 +4845,7 @@ ul {
 }
 
 .profile-page .count__area2 .count__content .icon {
-    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .profile-page .count__area2 .count__content .icon img {
@@ -4944,7 +4944,7 @@ ul {
 
 .react-clients .client-slider .single-client .client-content {
     position: relative;
-    padding-right: 40px;
+    padding-left: 40px;
 }
 
 .react-clients .client-slider .single-client .client-content p {
@@ -4972,7 +4972,7 @@ ul {
 .react-clients .client-slider .single-client .client-content .comma {
     width: auto;
     position: absolute;
-    right: 25px;
+    left: 25px;
     bottom: -31%;
     z-index: 11;
 }
@@ -4981,7 +4981,7 @@ ul {
     padding: 0px;
     width: 230px;
     display: block;
-    margin-right: 70px;
+    margin-left: 70px;
 }
 
 .react-clients .client-slider .single-client .client-author img {
@@ -4998,7 +4998,7 @@ ul {
     position: absolute;
     display: block;
     top: 40%;
-    right: unset;
+    left: unset;
     width: 100%;
     opacity: 1;
     transition: all 0.5s ease 0s;
@@ -5006,7 +5006,7 @@ ul {
 
 .popular__course__area .owl-carousel .owl-nav [class*="owl-"] {
     position: absolute;
-    left: 20px;
+    right: 20px;
     display: inline-block;
     font-size: 0;
     width: 70px;
@@ -5017,12 +5017,12 @@ ul {
     border-radius: 100%;
     transition: all 0.5s ease 0s;
     border: 4px solid #F2F4F9;
-    box-shadow: -6px 20px 30px rgba(15, 18, 22, 0.06);
+    box-shadow: 6px 20px 30px rgba(15, 18, 22, 0.06);
 }
 
 .blog__area .owl-carousel .owl-nav [class*="owl-"] {
     position: absolute;
-    left: 20px;
+    right: 20px;
     display: inline-block;
     font-size: 0;
     width: 70px;
@@ -5033,28 +5033,28 @@ ul {
     border-radius: 100%;
     transition: all 0.5s ease 0s;
     border: 4px solid #F2F4F9;
-    box-shadow: -6px 20px 30px rgba(15, 18, 22, 0.06);
+    box-shadow: 6px 20px 30px rgba(15, 18, 22, 0.06);
 }
 
 .popular__course__area .owl-carousel .owl-nav [class*="owl-"]:before {
     content: "\35";
     font-family: ElegantIcons;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 50%;
+    transform: translateX(50%);
     font-size: 26px;
     font-weight: 700;
     line-height: 60px;
 }
 
 .popular__course__area .owl-carousel .owl-nav [class*="owl-"].owl-next {
-    left: auto;
-    right: -35px;
+    right: auto;
+    left: -35px;
 }
 
 .popular__course__area .owl-carousel .owl-nav [class*="owl-"].owl-prev {
-    left: -35px;
-    right: auto;
+    right: -35px;
+    left: auto;
 }
 
 .popular__course__area .owl-carousel .owl-nav [class*="owl-"].owl-prev:before {
@@ -5175,13 +5175,13 @@ ul {
     border-radius: 4px;
     position: absolute;
     z-index: 1;
-    right: 6%;
+    left: 6%;
     top: 8%;
     font-style: normal;
 }
 
 .react-blog__area .blog__card--content {
-    padding: 28px 36px 32px 37px;
+    padding: 28px 37px 32px 36px;
 }
 
 .react-blog__area .blog__card--date {
@@ -5219,7 +5219,7 @@ ul {
 
 .react-blog__area .blog__card--link-icon {
     vertical-align: middle;
-    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .react-blog__area .blog__card--icon {
@@ -5240,7 +5240,7 @@ ul {
     font-size: 16px;
     font-weight: 400;
     color: #5B5F64;
-    padding-left: 2px;
+    padding-right: 2px;
     line-height: 10px;
     vertical-align: middle;
 }
@@ -5250,7 +5250,7 @@ ul {
 }
 
 .react-blog__area .blog__card--icon-2-first {
-    margin-right: 17px;
+    margin-left: 17px;
 }
 
 .react-blog__area .blog__card--icon-2-first svg {
@@ -5278,7 +5278,7 @@ ul {
 }
 
 .campus_sec .react__title__section img {
-    margin-right: 120px;
+    margin-left: 120px;
 }
 
 .campus_sec .about__image {
@@ -5288,13 +5288,13 @@ ul {
 .campus_sec .about__image .shape-1 {
     position: absolute;
     bottom: 90px;
-    right: 5px;
+    left: 5px;
 }
 
 .campus_sec .about__content {
     background: #ffffff;
     padding: 50px 60px;
-    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .campus_sec .about__content ul {
@@ -5314,7 +5314,7 @@ ul {
 }
 
 .campus_sec .about__content ul li .icon {
-    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .campus_sec .about__content ul li .icon img {
@@ -5403,8 +5403,8 @@ ul {
 .popular__course__area .course__item .course__inner ul {
     display: flex;
     justify-content: start;
-    padding-left: 25px;
     padding-right: 25px;
+    padding-left: 25px;
 }
 
 .popular__course__area .course__item .course__inner ul li {
@@ -5412,14 +5412,14 @@ ul {
     line-height: 22px;
     color: #F5BD02;
     position: relative;
-    padding-left: 16px;
-    margin-right: 30px;
+    padding-right: 16px;
+    margin-left: 30px;
 }
 
 .popular__course__area .course__item .course__inner ul li:before {
     content: "";
     position: absolute;
-    left: 0;
+    right: 0;
     background: #F5BD02;
     width: 6px;
     height: 6px;
@@ -5436,7 +5436,7 @@ ul {
 }
 
 .popular__course__area .course__item .course__inner ul li:last-child {
-    margin-right: 0;
+    margin-left: 0;
 }
 
 .popular__course__area .course__item .react-course-title {
@@ -5444,8 +5444,8 @@ ul {
     line-height: 25px;
     margin: 14px 0 0;
     font-weight: 600;
-    padding-left: 25px;
     padding-right: 25px;
+    padding-left: 25px;
 }
 .popular__course__area .course__item p{
     overflow: hidden;
@@ -5465,8 +5465,8 @@ ul {
 .popular__course__area .course__item .course__card-icon {
     justify-content: space-between;
     border-top: 1px solid #EDEDED;
-    padding-left: 25px;
     padding-right: 25px;
+    padding-left: 25px;
     padding-top: 15px;
 }
 
@@ -5479,7 +5479,7 @@ ul {
     font-weight: 400;
     font-size: 16px;
     color: #4D5765;
-    padding-left: 7px;
+    padding-right: 7px;
 }
 
 .popular__course__area .course__item .course__card-icon .react__user {
@@ -5520,11 +5520,11 @@ ul {
 }
 
 .count__area .count__width .col-lg-3 {
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .count__area .count__width .col-lg-3:last-child {
-    border-right: none;
+    border-left: none;
 }
 
 .count__area .count__width .count__content {
@@ -5621,7 +5621,7 @@ ul {
     color: #F5BD02;
     position: relative;
     top: -1px;
-    margin-right: 2px;
+    margin-left: 2px;
 }
 
 .react-upcoming__event .event__card .event__card--link {
@@ -5670,8 +5670,8 @@ ul {
     box-shadow: 0px 1px 2px rgba(15, 18, 22, 0.1);
     border-radius: 6px;
     padding: 15px 20px;
-    margin-left: 0px;
     margin-right: 0px;
+    margin-left: 0px;
     margin-bottom: 50px;
 }
 
@@ -5683,7 +5683,7 @@ ul {
 
 .back__course__page_grid .shorting__course .all__icons svg {
     cursor: pointer;
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
     position: relative;
     width: 18px;
     color: #8D1B3D;
@@ -5697,7 +5697,7 @@ ul {
 }
 
 .back__course__page_grid .shorting__course .all__icons .result-count {
-    padding-left: 10px;
+    padding-right: 10px;
     color: #0F1216;
     font-size: 16px;
     font-weight: 400;
@@ -5712,15 +5712,15 @@ ul {
     font-size: 15px;
     font-weight: 500;
     cursor: pointer;
-    border-right: 15px solid #F2F4F9;
-    margin-left: 15px;
+    border-left: 15px solid #F2F4F9;
+    margin-right: 15px;
 }
 
 .back__course__page_grid .shorting__course2 {
     background: none;
     padding: 0px;
-    margin-left: 0px;
     margin-right: 0px;
+    margin-left: 0px;
     margin-bottom: 20px;
 }
 
@@ -5729,7 +5729,7 @@ ul {
 }
 
 .back__course__page_grid .shorting__course2 .all__icons .result-count {
-    padding-left: 10px;
+    padding-right: 10px;
     color: #5B5F64;
     font-size: 16px;
     font-weight: 400;
@@ -5744,12 +5744,12 @@ ul {
     font-size: 15px;
     font-weight: 400;
     cursor: pointer;
-    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .back__course__page_grid .shorting__courses3 {
-    margin-left: 0px;
     margin-right: 0px;
+    margin-left: 0px;
     padding: 10px 0px;
     border-radius: 6px;
     margin-bottom: 30px;
@@ -5776,12 +5776,12 @@ ul {
     align-items: center;
     border: 2px solid rgba(91, 95, 100, 0.1);
     border-radius: 6px;
-    padding: 0 0 0 10px;
+    padding: 0 10px 0 0;
 }
 
 .back__course__page_grid .shorting__courses3 .all__icons .grid__icons .grid__icons_inner {
     width: 22px;
-    margin-right: 3px;
+    margin-left: 3px;
 }
 
 .back__course__page_grid .shorting__courses3 .all__icons .grid__icons span {
@@ -5790,17 +5790,17 @@ ul {
     height: 4px;
     border-radius: 50%;
     margin: 1px;
-    float: left;
+    float: right;
 }
 
 .back__course__page_grid .shorting__courses3 .all__icons .list__icons {
-    border-left: 2px solid #EFEFF0;
-    margin-left: 5px;
+    border-right: 2px solid #EFEFF0;
+    margin-right: 5px;
     padding: 4px 10px;
 }
 
 .back__course__page_grid .shorting__courses3 .all__icons .result-count {
-    padding-left: 40px;
+    padding-right: 40px;
     color: #5c5c68;
     font-size: 15px;
     font-weight: 600;
@@ -5815,7 +5815,7 @@ ul {
     font-size: 15px;
     font-weight: 500;
     cursor: pointer;
-    border-right: 15px solid #F2F4F9;
+    border-left: 15px solid #F2F4F9;
 }
 
 .back__course__page_grid.back__course__page_grid_left {
@@ -5869,8 +5869,8 @@ ul {
 }
 
 .react-upcoming__event_page .shorting__course3 {
-    margin-left: 0px;
     margin-right: 0px;
+    margin-left: 0px;
     padding: 10px 0px;
     border-radius: 6px;
     margin-bottom: 20px;
@@ -5887,7 +5887,7 @@ ul {
 }
 
 .react-upcoming__event_page .shorting__course3 .all__icons .result-count {
-    padding-left: 0px;
+    padding-right: 0px;
     color: #5c5c68;
     font-size: 15px;
     font-weight: 600;
@@ -5902,7 +5902,7 @@ ul {
     font-size: 15px;
     font-weight: 500;
     cursor: pointer;
-    border-right: 15px solid #fff;
+    border-left: 15px solid #fff;
     box-shadow: 0px 1px 2px rgba(15, 18, 22, 0.1);
     width: 100%;
     max-width: 300px;
@@ -5935,8 +5935,8 @@ ul {
 }
 
 .react-upcoming__event_list .shorting__course3 {
-    margin-left: 0px;
     margin-right: 0px;
+    margin-left: 0px;
     padding: 10px 0px;
     border-radius: 6px;
     margin-bottom: 20px;
@@ -5953,7 +5953,7 @@ ul {
 }
 
 .react-upcoming__event_list .shorting__course3 .all__icons .result-count {
-    padding-left: 0px;
+    padding-right: 0px;
     color: #5c5c68;
     font-size: 15px;
     font-weight: 600;
@@ -5968,7 +5968,7 @@ ul {
     font-size: 15px;
     font-weight: 500;
     cursor: pointer;
-    border-right: 15px solid #fff;
+    border-left: 15px solid #fff;
     box-shadow: 0px 1px 2px rgba(15, 18, 22, 0.1);
     width: 100%;
     max-width: 300px;
@@ -6004,7 +6004,7 @@ ul {
 
 .react-upcoming__event_list ul.related-courses li .titles {
     display: block;
-    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .react-upcoming__event_list ul.related-courses li .titles h4 {
@@ -6051,7 +6051,7 @@ ul {
 .react-upcoming__event_list .widget .location-input svg {
     position: absolute;
     top: 11px;
-    right: 23px;
+    left: 23px;
     color: #6F7985;
     width: 18px;
 }
@@ -6074,7 +6074,7 @@ ul {
 .react-upcoming__event_list .blog-form form input {
     width: 100%;
     height: 48px;
-    padding: 10px 30px 10px 20px;
+    padding: 10px 20px 10px 30px;
     background: #F2F4F9;
     border: none;
     outline: none;
@@ -6097,7 +6097,7 @@ ul {
     font-size: 15px;
     font-weight: 500;
     cursor: pointer;
-    border-right: 24px solid #F2F4F9;
+    border-left: 24px solid #F2F4F9;
     width: 100%;
     margin-bottom: 12px;
 }
@@ -6158,7 +6158,7 @@ ul {
 
 body.courses-grid-page .react-course-filter .single-studies .inner-course .case-content ul li svg {
     width: 16px;
-    margin-right: 6px;
+    margin-left: 6px;
 }
 
 body.courses-grid-page .react-course-filter .single-studies .inner-course .case-content ul li svg.feather-clock {
@@ -6186,8 +6186,8 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 }
 
 body.courses-grid-page .react-course-filter .single-studies .inner-course .case-img a {
-    left: 22px;
-    right: auto;
+    right: 22px;
+    left: auto;
     background: #8D1B3D;
 }
 
@@ -6265,7 +6265,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     padding: 5px 10px 5px;
     line-height: 17px;
     position: absolute;
-    right: 24px;
+    left: 24px;
     top: 20px;
 }
 
@@ -6286,7 +6286,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 .react-blog-page .single-blog .blog-content .top-part li {
     font-size: 15px;
     color: #737383;
-    padding-right: 25px;
+    padding-left: 25px;
     font-weight: 500;
 }
 
@@ -6295,11 +6295,11 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     height: 18px;
     position: relative;
     top: -2px;
-    margin-right: 4px;
+    margin-left: 4px;
 }
 
 .react-blog-page .single-blog .blog-content .top-part li:first-child img {
-    margin-right: 8px;
+    margin-left: 8px;
 }
 
 .react-blog-page .single-blog .blog-content .blog-title {
@@ -6367,13 +6367,13 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     display: inline-block;
     height: 45px;
     line-height: 37px;
-    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .react-blog-page .single-blog .blog-content .button__sec .share-course em svg {
     width: 18px;
     position: relative;
-    right: 2px;
+    left: 2px;
 }
 
 .react-blog-page .single-blog .blog-content .button__sec .share-course span {
@@ -6382,7 +6382,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     padding: 7px 18px;
     border-radius: 4px;
     width: 133px;
-    left: 40px;
+    right: 40px;
     top: 0px;
     opacity: 0;
     transition: all .5s ease;
@@ -6392,13 +6392,13 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     content: "";
     width: 0;
     height: 0;
-    border-left: 10px solid transparent;
     border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
     border-top: 10px solid #000;
     position: absolute;
     top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 50%;
+    transform: translateX(50%);
 }
 
 .react-blog-page .single-blog .blog-content .button__sec .share-course span a {
@@ -6426,39 +6426,39 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     margin: 40px 0px 60px;
     padding: 50px 40px 50px 40px;
     color: #0F1216;
-    box-shadow: -3px 0px 0px #8D1B3D, 0px 20px 40px rgba(15, 18, 22, 0.1);
+    box-shadow: 3px 0px 0px #8D1B3D, 0px 20px 40px rgba(15, 18, 22, 0.1);
     border-radius: 6px;
     font-size: 24px;
     overflow: hidden;
     line-height: 34px;
     font-weight: 400;
     z-index: 1;
-    border-left: 1px solid #8D1B3D;
+    border-right: 1px solid #8D1B3D;
 }
 
 .react-blog-page blockquote:before {
     content: "";
     font-size: 120px;
     position: absolute;
-    background: url(assets/images/blog-grid/qu-1.png) no-repeat right bottom;
+    background: url(assets/images/blog-grid/qu-1.png) no-repeat left bottom;
     bottom: 0px;
-    right: 47px;
+    left: 47px;
     width: 107px;
     height: 107px;
     z-index: 0;
 }
 
 .react-blog-page blockquote.block__link_q {
-    padding: 30px 50px 35px 95px;
+    padding: 30px 95px 35px 50px;
 }
 
 .react-blog-page blockquote.block__link_q:before {
     content: "";
     font-size: 120px;
     position: absolute;
-    background: url(assets/images/blog-grid/link-1.png) no-repeat right bottom;
+    background: url(assets/images/blog-grid/link-1.png) no-repeat left bottom;
     top: 50%;
-    left: 40px;
+    right: 40px;
     width: 30px;
     height: 30px;
     z-index: -1;
@@ -6473,14 +6473,14 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     margin-top: 16px;
     font-weight: 400;
     position: relative;
-    padding-left: 22px;
+    padding-right: 22px;
 }
 
 .react-blog-page blockquote em:before {
     content: "";
     position: absolute;
     bottom: 16px;
-    left: 0px;
+    right: 0px;
     width: 15px;
     height: 2px;
     z-index: -1;
@@ -6495,7 +6495,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 
 .blog-post-page .react-sidebar ul.related-courses li .titles span svg {
     width: 16px;
-    margin-right: 2px;
+    margin-left: 2px;
     position: relative;
     top: -2px;
 }
@@ -6520,14 +6520,14 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 
 .blog-post-page .react-sidebar .widget.react-categories-course .recent-category li a em {
     display: block;
-    float: right;
-    clear: right;
+    float: left;
+    clear: left;
     font-style: normal;
 }
 
 .blog-post-page .widget-tags .tags li {
     display: inline-block;
-    margin: 0 5px 13px 0;
+    margin: 0 0 13px 5px;
 }
 
 .blog-post-page .widget-tags .tags li a {
@@ -6548,7 +6548,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     23. Blog Details Page CSS
 ****************************/
 .react-course-filter .single-studies .inner-course .case-content {
-    padding: 30px 38px 30px 25px;
+    padding: 30px 25px 30px 38px;
 }
 
 .react-course-filter .single-studies .inner-course .case-content em {
@@ -6562,9 +6562,9 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     color: #0F1216;
     font-size: 16px;
     font-weight: 600;
-    float: right;
-    clear: right;
-    text-align: right;
+    float: left;
+    clear: left;
+    text-align: left;
     position: relative;
 }
 
@@ -6577,13 +6577,13 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     display: inline-block;
     height: 45px;
     line-height: 40px;
-    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .share-course em svg {
     width: 18px;
     position: relative;
-    right: 2px;
+    left: 2px;
 }
 
 .share-course span {
@@ -6592,7 +6592,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     padding: 7px 18px;
     border-radius: 4px;
     width: 133px;
-    left: 75px;
+    right: 75px;
     top: 0px;
     opacity: 0;
     transition: all .5s ease;
@@ -6602,13 +6602,13 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     content: "";
     width: 0;
     height: 0;
-    border-left: 10px solid transparent;
     border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
     border-top: 10px solid #000;
     position: absolute;
     top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 50%;
+    transform: translateX(50%);
 }
 
 .share-course span a {
@@ -6676,7 +6676,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     background: rgba(50, 112, 252, 0.08);
     padding: 6px;
     border-radius: 50%;
-    margin-right: 12px;
+    margin-left: 12px;
 }
 
 .blog-single-inner .blog-content blockquote {
@@ -6684,23 +6684,23 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     margin: 40px 0px 60px;
     padding: 38px 40px 40px 40px;
     color: #0F1216;
-    box-shadow: -3px 0px 0px #8D1B3D, 0px 20px 40px rgba(15, 18, 22, 0.1);
+    box-shadow: 3px 0px 0px #8D1B3D, 0px 20px 40px rgba(15, 18, 22, 0.1);
     border-radius: 6px;
     font-size: 24px;
     overflow: hidden;
     line-height: 34px;
     font-weight: 400;
     z-index: 1;
-    border-left: 1px solid #8D1B3D;
+    border-right: 1px solid #8D1B3D;
 }
 
 .blog-single-inner .blog-content blockquote:before {
     content: "";
     font-size: 120px;
     position: absolute;
-    background: url(assets/images/blog-grid/qu-1.png) no-repeat right bottom;
+    background: url(assets/images/blog-grid/qu-1.png) no-repeat left bottom;
     bottom: 0px;
-    right: 47px;
+    left: 47px;
     width: 107px;
     height: 107px;
     z-index: 0;
@@ -6710,9 +6710,9 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     content: "";
     font-size: 120px;
     position: absolute;
-    background: url(assets/images/blog-grid/link-1.png) no-repeat right bottom;
+    background: url(assets/images/blog-grid/link-1.png) no-repeat left bottom;
     bottom: -6px;
-    right: 47px;
+    left: 47px;
     width: 180px;
     height: 180px;
     z-index: -1;
@@ -6726,14 +6726,14 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     margin-top: 16px;
     font-weight: 400;
     position: relative;
-    padding-left: 22px;
+    padding-right: 22px;
 }
 
 .blog-single-inner .blog-content blockquote em:before {
     content: "";
     position: absolute;
     bottom: 16px;
-    left: 0px;
+    right: 0px;
     width: 15px;
     height: 2px;
     z-index: -1;
@@ -6749,7 +6749,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 
 .blog-single-inner .blog-content .blog-tags ul.mata-tags li {
     display: inline-block;
-    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .blog-single-inner .blog-content .blog-tags ul.mata-tags li a {
@@ -6775,7 +6775,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     font-size: 16px;
     font-weight: 600;
     color: #000;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .blog-single-inner .blog-content .post-author {
@@ -6790,7 +6790,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 }
 
 .blog-single-inner .blog-content .post-author .avatar {
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .blog-single-inner .blog-content .post-author .avatar img {
@@ -6809,7 +6809,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 .blog-single-inner .blog-content .post-author .info .designation a {
     font-size: 14px;
     color: #4D5765;
-    margin-right: 8px;
+    margin-left: 8px;
 }
 
 .blog-single-inner .blog-content .post-author .info .designation a:hover {
@@ -6842,7 +6842,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 
 .blog-single-inner .blog-content .author-comment span i:before {
     font-size: 13px;
-    padding-right: 3px;
+    padding-left: 3px;
     position: relative;
     top: -1px;
 }
@@ -6861,23 +6861,23 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 
 .blog-single-inner .blog-content .author-comment ul li {
     margin: 0 0 35px;
-    padding: 30px 57px 32px 35px;
+    padding: 30px 35px 32px 57px;
     border: 1px solid rgba(0, 48, 110, 0.1);
     border-radius: 6px;
 }
 
 .blog-single-inner .blog-content .author-comment ul li .col-sm-2 {
-    text-align: left;
-    padding-right: 6px;
+    text-align: right;
+    padding-left: 6px;
 }
 
 .blog-single-inner .blog-content .author-comment ul li:nth-child(2) {
-    margin-left: 120px;
-    padding: 35px 52px 32px 35px;
+    margin-right: 120px;
+    padding: 35px 35px 32px 52px;
 }
 
 .blog-single-inner .blog-content .author-comment ul li:nth-child(2) .col-sm-2 {
-    padding-right: 6px;
+    padding-left: 6px;
 }
 
 .blog-single-inner .blog-content .author-comment ul li:nth-child(2) .image-comments img {
@@ -6885,12 +6885,12 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 }
 
 .blog-single-inner .blog-content .author-comment ul li:nth-child(3) {
-    margin-left: 120px;
-    padding: 35px 52px 38px 35px;
+    margin-right: 120px;
+    padding: 35px 35px 38px 52px;
 }
 
 .blog-single-inner .blog-content .author-comment ul li:nth-child(3) .col-sm-2 {
-    padding-right: 6px;
+    padding-left: 6px;
 }
 
 .blog-single-inner .blog-content .author-comment ul li:nth-child(3) .image-comments img {
@@ -6936,7 +6936,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     width: 16px;
     position: relative;
     top: 0px;
-    margin-right: 2px;
+    margin-left: 2px;
 }
 
 .blog-single-inner .blog-content .author-comment ul li .dsc-comments a:hover {
@@ -6963,13 +6963,13 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 .blog-single-inner .blog-content .blog-form .back-input img {
     position: absolute;
     bottom: 55px;
-    left: 30px;
+    right: 30px;
 }
 
 .blog-single-inner .blog-content .blog-form .back-textarea img {
     position: absolute;
     top: 57px;
-    left: 47px;
+    right: 47px;
     z-index: 1;
 }
 
@@ -7042,7 +7042,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     width: 18px;
     position: relative;
     top: -1px;
-    margin-left: 2px;
+    margin-right: 2px;
 }
 
 .blog-single-inner .blog-content .blog-form form button:hover {
@@ -7068,7 +7068,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 
 .blog-single-inner .blog-content .blog-form form .back-check-box input {
     width: auto;
-    margin: 0 8px 0 0;
+    margin: 0 0 0 8px;
     height: 16px;
     width: 16px;
 }
@@ -7113,7 +7113,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 }
 
 .single-nav .back-next {
-    text-align: right;
+    text-align: left;
 }
 
 .single-nav .back-prev a,
@@ -7145,34 +7145,11 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 
 .single-nav .back-prev {
     position: relative;
-    padding-left: 55px;
-    transition: all 500ms ease;
-}
-
-.single-nav .back-prev i:before {
-    font-size: 23px;
-    margin: 0;
-    font-weight: 600;
-    position: absolute;
-    top: 8px;
-    left: 0;
-    transition: all 500ms ease;
-    border: 2px solid rgba(15, 18, 22, 0.08);
-    padding: 6px;
-    border-radius: 50%;
-}
-
-.single-nav .back-prev:hover i:before {
-    left: -6px;
-}
-
-.single-nav .back-next {
-    position: relative;
     padding-right: 55px;
     transition: all 500ms ease;
 }
 
-.single-nav .back-next i:before {
+.single-nav .back-prev i:before {
     font-size: 23px;
     margin: 0;
     font-weight: 600;
@@ -7185,8 +7162,31 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     border-radius: 50%;
 }
 
-.single-nav .back-next:hover i:before {
+.single-nav .back-prev:hover i:before {
     right: -6px;
+}
+
+.single-nav .back-next {
+    position: relative;
+    padding-left: 55px;
+    transition: all 500ms ease;
+}
+
+.single-nav .back-next i:before {
+    font-size: 23px;
+    margin: 0;
+    font-weight: 600;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    transition: all 500ms ease;
+    border: 2px solid rgba(15, 18, 22, 0.08);
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.single-nav .back-next:hover i:before {
+    left: -6px;
 }
 
 .single-nav .social-links svg {
@@ -7202,11 +7202,11 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     color: #0F1216;
     font-weight: 700;
     line-height: 42px;
-    text-align: left;
+    text-align: right;
 }
 
 .react-contact-page .react-blog-form {
-    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .react-contact-page .blog-form {
@@ -7222,13 +7222,13 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 .react-contact-page .blog-form .back-input img {
     position: absolute;
     bottom: 55px;
-    left: 30px;
+    right: 30px;
 }
 
 .react-contact-page .blog-form .react-textarea img {
     position: absolute;
     top: 57px;
-    left: 47px;
+    right: 47px;
     z-index: 1;
 }
 
@@ -7315,7 +7315,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 
 .react-contact-page .blog-form form .react-check-box input {
     width: auto;
-    margin: 0 8px 0 0;
+    margin: 0 0 0 8px;
     height: 16px;
     width: 16px;
 }
@@ -7350,7 +7350,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 
 .react-contact-page .address-sec {
     padding: 35px;
-    background: linear-gradient(138.95deg, #f2f4f9 0%, rgba(242, 244, 249, 0) 63.81%);
+    background: linear-gradient(-138.95deg, #f2f4f9 0%, rgba(242, 244, 249, 0) 63.81%);
     border-radius: 10px;
 }
 
@@ -7360,7 +7360,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 }
 
 .react-contact-page .address-sec li .icon {
-    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .react-contact-page .address-sec li .text {
@@ -7398,7 +7398,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 }
 
 .react-contact-page .react-contacts .react-image-maping .react-tooltip1 {
-    left: 50%;
+    right: 50%;
     top: 50%;
     display: block;
 }
@@ -7436,7 +7436,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     opacity: 1;
     filter: alpha(opacity=100);
     top: -60px;
-    left: -18px;
+    right: -18px;
     z-index: 99;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
@@ -7452,8 +7452,8 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     width: 140px;
     top: -20px;
     /*-- this is the original position of the tooltip when it's hidden */
-    left: -18px;
-    margin-left: 0;
+    right: -18px;
+    margin-right: 0;
     /*-- set opacity to 0 otherwise our animations won't work */
     opacity: 0;
     filter: alpha(opacity=0);
@@ -7475,7 +7475,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     bottom: -10px;
     content: "";
     display: block;
-    left: 18px;
+    right: 18px;
     position: absolute;
     width: 0;
 }
@@ -7484,7 +7484,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     25. Courses Section CSS Here
 ****************************/
 .react-breadcrumbs .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text {
-    text-align: left;
+    text-align: right;
 }
 
 .react-breadcrumbs .breadcrumbs-wrap .breadcrumbs-inner .breadcrumbs-text .cate {
@@ -7506,7 +7506,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 }
 
 .user-section li {
-    padding-right: 40px;
+    padding-left: 40px;
     font-size: 16px;
     color: #fff;
     font-weight: 400;
@@ -7516,7 +7516,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     width: 18px;
     position: relative;
     top: -2px;
-    margin-right: 4px;
+    margin-left: 4px;
 }
 
 .user-section li.user {
@@ -7525,7 +7525,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 }
 
 .user-section li.user span {
-    padding-right: 12px;
+    padding-left: 12px;
 }
 
 .user-section li.user span img {
@@ -7591,7 +7591,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 .react-courses__single-page .course-single-tab #back-tab-content .back-tag svg {
     width: 18px;
     height: 18px;
-    margin-right: 4px;
+    margin-left: 4px;
 }
 
 .react-courses__single-page .course-single-tab #back-tab-content .back-objectives {
@@ -7611,13 +7611,13 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 }
 
 .react-courses__single-page .course-single-tab #back-tab-content .back-objectives li {
-    float: left;
+    float: right;
     width: 50%;
     font-size: 15px;
     font-weight: 600;
     color: #F5BD02;
     position: relative;
-    padding-left: 42px;
+    padding-right: 42px;
     margin: 10px 0 17px;
     line-height: 1.3;
 }
@@ -7635,7 +7635,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     border-radius: 50%;
     display: inline-block;
     position: absolute;
-    left: 0;
+    right: 0;
 }
 
 .react-courses__single-page .course-single-tab #back-tab-content .single-week {
@@ -7671,20 +7671,20 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 .react-courses__single-page .course-single-tab #back-tab-content .single-week .course__title li svg {
     width: 20px;
     height: 20px;
-    margin-right: 7px;
+    margin-left: 7px;
     position: relative;
     top: -2px;
 }
 
 .react-courses__single-page .course-single-tab #back-tab-content .single-week .course__title li em {
     font-style: normal;
-    float: right;
+    float: left;
 }
 
 .react-courses__single-page .course-single-tab #back-tab-content .single-week .course__title li em svg {
     width: 17px;
     height: 17px;
-    margin-right: 3px;
+    margin-left: 3px;
     position: relative;
     top: -2px;
 }
@@ -7695,7 +7695,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     padding: 6px 10px;
     line-height: 1;
     border-radius: 6px;
-    margin-left: 20px;
+    margin-right: 20px;
     font-weight: 500;
 }
 
@@ -7737,7 +7737,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     height: 10px;
     width: 100%;
     clear: both;
-    margin: 0 20px 0 0;
+    margin: 0 0 0 20px;
     border-radius: 0px;
 }
 
@@ -7788,7 +7788,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 }
 
 .react-courses__single-page .course-single-tab #back-tab-content .post-author .avatar {
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .react-courses__single-page .course-single-tab #back-tab-content .post-author .avatar img {
@@ -7925,7 +7925,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 
 .react-courses__single-page .course-single-tab #back-tab-content .blog-form form .back-check-box input {
     width: auto;
-    margin: 0 8px 0 0;
+    margin: 0 0 0 8px;
     height: 16px;
     width: 16px;
 }
@@ -8087,7 +8087,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     font-size: 16px;
     font-weight: 600;
     text-decoration: line-through;
-    margin-left: 9px;
+    margin-right: 9px;
     color: #9DA1A6;
 }
 
@@ -8096,7 +8096,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     color: #8D1B3D;
     background: rgba(210, 9, 60, 0.06);
     border-radius: 4px;
-    margin-left: 10px;
+    margin-right: 10px;
     padding: 5px 6px;
     font-weight: 600;
 }
@@ -8111,8 +8111,8 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     display: block;
     font-size: 16px;
     font-weight: 600;
-    margin-left: 35px;
     margin-right: 35px;
+    margin-left: 35px;
     margin-top: 30px;
     margin-bottom: 25px;
 }
@@ -8144,13 +8144,13 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     display: inline-block;
     height: 45px;
     line-height: 37px;
-    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .react-sidebar .widget.get-back-course .share-course em svg {
     width: 18px;
     position: relative;
-    right: 2px;
+    left: 2px;
 }
 
 .react-sidebar .widget.get-back-course .share-course span {
@@ -8159,7 +8159,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     padding: 7px 18px;
     border-radius: 4px;
     width: 133px;
-    left: 190px;
+    right: 190px;
     top: 0px;
     opacity: 0;
     transition: all .5s ease;
@@ -8169,13 +8169,13 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     content: "";
     width: 0;
     height: 0;
-    border-left: 10px solid transparent;
     border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
     border-top: 10px solid #000;
     position: absolute;
     top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 50%;
+    transform: translateX(50%);
 }
 
 .react-sidebar .widget.get-back-course .share-course span a {
@@ -8199,8 +8199,8 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 }
 
 .react-sidebar .widget.get-back-course .price__course {
-    padding-left: 40px;
     padding-right: 40px;
+    padding-left: 40px;
     padding-top: 20px;
 }
 
@@ -8214,7 +8214,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     position: relative;
     color: #0F1216;
     display: inline-block;
-    margin-right: 10px;
+    margin-left: 10px;
     font-size: 14px;
 }
 
@@ -8222,8 +8222,8 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     font-size: 16px;
     font-weight: 400;
     color: #5B5F64;
-    float: right;
-    clear: right;
+    float: left;
+    clear: left;
 }
 
 .react-sidebar .widget.get-back-course .price__course li b.prs {
@@ -8239,14 +8239,14 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 
 .react-sidebar .widget.back-rating ul.recent-category input[type="checkbox"] + label::before {
     border-radius: 50%;
-    margin-right: 10px;
+    margin-left: 10px;
     top: 0;
 }
 
 .react-sidebar .widget.back-rating em {
     font-style: normal;
     display: inline-block;
-    margin-left: 6px;
+    margin-right: 6px;
 }
 
 .react-sidebar .widget.back-rating i {
@@ -8256,7 +8256,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 
 .react-sidebar .widget.back-price ul.recent-category input[type="checkbox"] + label::before {
     border-radius: 50%;
-    margin-right: 10px;
+    margin-left: 10px;
     top: 0;
 }
 
@@ -8317,7 +8317,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     width: 23px;
     height: 23px;
     line-height: 11px;
-    margin-right: 12px;
+    margin-left: 12px;
     vertical-align: middle;
     color: transparent;
     transition: .2s;
@@ -8373,7 +8373,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 
 .react-sidebar ul.related-courses li .titles {
     display: block;
-    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .react-sidebar ul.related-courses li .titles h4 {
@@ -8430,7 +8430,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 
 .react-sidebar ul.recent-posts li .titles {
     display: block;
-    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .react-sidebar ul.recent-posts li .titles h4 {
@@ -8477,7 +8477,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     outline: none;
     border-radius: 6px;
     border: none;
-    padding-right: 80px;
+    padding-left: 80px;
 }
 
 .react-sidebar form button {
@@ -8485,14 +8485,14 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     color: #ffffff;
     display: inline-block;
     padding: 4px 23px;
-    border-radius: 0 3px 3px 0;
+    border-radius: 3px 0 0 3px;
     font-size: 16px;
     border: none;
     outline: none;
     cursor: pointer;
     margin-top: 0;
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0;
     transition: all .5s ease;
 }
@@ -8536,7 +8536,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 
 .events-details ul.mata-tags li {
     display: inline-block;
-    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .events-details ul.mata-tags li a {
@@ -8562,7 +8562,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
     font-size: 16px;
     font-weight: 600;
     color: #000;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .events-details .others-instructors {
@@ -8574,7 +8574,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 
 .events-details .others-instructors li {
     text-align: center;
-    margin-right: 32px;
+    margin-left: 32px;
 }
 
 .events-details .others-instructors li span {
@@ -8594,7 +8594,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 
 .events-details .others-instructors li:first-child {
     flex: 0 0 100%;
-    text-align: left;
+    text-align: right;
     margin-bottom: 16px;
 }
 
@@ -8603,7 +8603,7 @@ body.courses-grid-page .react-course-filter .single-studies .inner-course .case-
 }
 
 .events-details .others-instructors li:last-child {
-    margin-right: 0;
+    margin-left: 0;
 }
 
 body.event-page .react-upcoming__event .event__card .event__card--link:hover {
@@ -8654,8 +8654,8 @@ body.event-page .react-upcoming__event .event__card .event_time {
     bottom: -11px;
     width: 24px !important;
     z-index: 11111;
-    left: 40px;
-    transform: rotate(-53deg);
+    right: 40px;
+    transform: rotate(53deg);
     height: 24px;
     background: #fff;
 }
@@ -8667,7 +8667,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
 }
 
 .student_satisfaction-section .author-sec .icon {
-    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .student_satisfaction-section .author-sec .text {
@@ -8722,7 +8722,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
     position: absolute;
     display: block;
     top: 29%;
-    right: unset;
+    left: unset;
     width: 100%;
     opacity: 1;
     transition: all 0.5s ease 0s;
@@ -8730,7 +8730,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
 
 .student_satisfaction-section .owl-carousel .owl-nav [class*="owl-"] {
     position: absolute;
-    left: 20px;
+    right: 20px;
     display: inline-block;
     font-size: 0;
     width: 50px;
@@ -8740,27 +8740,27 @@ body.event-page .react-upcoming__event .event__card .event_time {
     background: #fff;
     border-radius: 100%;
     transition: all 0.5s ease 0s;
-    box-shadow: -6px 20px 30px rgba(15, 18, 22, 0.06);
+    box-shadow: 6px 20px 30px rgba(15, 18, 22, 0.06);
 }
 
 .student_satisfaction-section .owl-carousel .owl-nav [class*="owl-"]:before {
     content: "\35";
     font-family: ElegantIcons;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 50%;
+    transform: translateX(50%);
     font-size: 26px;
     font-weight: 700;
 }
 
 .student_satisfaction-section .owl-carousel .owl-nav [class*="owl-"].owl-next {
-    left: auto;
-    right: -35px;
+    right: auto;
+    left: -35px;
 }
 
 .student_satisfaction-section .owl-carousel .owl-nav [class*="owl-"].owl-prev {
-    left: -35px;
-    right: auto;
+    right: -35px;
+    left: auto;
 }
 
 .student_satisfaction-section .owl-carousel .owl-nav [class*="owl-"].owl-prev:before {
@@ -8784,18 +8784,18 @@ body.event-page .react-upcoming__event .event__card .event_time {
 }
 
 .student_satisfaction-section .count__area2 .container ul li {
-    border-right: 1px solid rgba(15, 18, 22, 0.08);
+    border-left: 1px solid rgba(15, 18, 22, 0.08);
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .student_satisfaction-section .count__area2 .container ul li:last-child {
-    border-right: none;
+    border-left: none;
 }
 
 .student_satisfaction-section .count__area2 .container ul li:first-child {
-    padding-left: 0;
+    padding-right: 0;
 }
 
 .student_satisfaction-section .count__area2 .count__content {
@@ -8805,7 +8805,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
 }
 
 .student_satisfaction-section .count__area2 .count__content .icon {
-    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .student_satisfaction-section .count__area2 .count__content .icon img {
@@ -8843,7 +8843,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
 }
 
 .student_satisfaction-section .count__area2 .count__content:last-child {
-    border-right: 0;
+    border-left: 0;
 }
 
 /*****************************************************
@@ -8856,7 +8856,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
 .high_quality-section .react-tab-gird .shape__1 {
     position: absolute;
     top: 40%;
-    left: 4.5%;
+    right: 4.5%;
     -webkit-animation: hero-leaf-2 3s linear infinite alternate;
     -moz-animation: hero-leaf-2 3s linear infinite alternate;
     -o-animation: hero-leaf-2 3s linear infinite alternate;
@@ -8866,14 +8866,14 @@ body.event-page .react-upcoming__event .event__card .event_time {
 .high_quality-section .react-tab-gird .shape__2 {
     position: absolute;
     top: 54%;
-    left: 7.5%;
+    right: 7.5%;
     z-index: -1;
 }
 
 .high_quality-section .react-tab-gird .shape__3 {
     position: absolute;
     top: -15%;
-    right: 2%;
+    left: 2%;
     z-index: -1;
     -webkit-animation: hero-leaf-2 3s linear infinite alternate;
     -moz-animation: hero-leaf-2 3s linear infinite alternate;
@@ -8892,7 +8892,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
     background: #ffffff;
     align-items: center;
     color: #0F1216;
-    padding: 16px 32px 15px 25px;
+    padding: 16px 25px 15px 32px;
     margin: 0 12px;
     transition: all 0.5s ease 0s;
     font-size: 18px;
@@ -8913,7 +8913,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
 }
 
 .high_quality-section .react-tab-gird .nav-tabs li a em.icon {
-    margin-right: 14px;
+    margin-left: 14px;
 }
 
 .high_quality-section .react-tab-gird .nav-tabs li a:hover,
@@ -9018,7 +9018,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
     z-index: 1;
     top: auto;
     bottom: 0px;
-    left: 0;
+    right: 0;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -9032,7 +9032,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
 
 .react-footer .footer-top .footer-menu li a:hover {
     color: #8D1B3D;
-    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .react-footer .footer-top .footer-menu li a:hover:after {
@@ -9061,7 +9061,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
 }
 
 .react-footer .footer-top .footer3__form input {
-    padding: 15px 80px 16px 30px;
+    padding: 15px 30px 16px 80px;
     border: none;
     outline: none;
     background: #ffffff;
@@ -9086,11 +9086,11 @@ body.event-page .react-upcoming__event .event__card .event_time {
     position: absolute;
     width: 60px;
     bottom: 0;
-    border-radius: 0 4px 4px 0;
+    border-radius: 4px 0 0 4px;
     background-color: #F5BD02;
     color: #ffffff;
     top: 0px;
-    right: 0px;
+    left: 0px;
     border: none;
 }
 
@@ -9102,7 +9102,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
     position: absolute;
     font-size: 22px;
     top: 19px;
-    left: 17px;
+    right: 17px;
 }
 
 .react-footer .footer-top .footer-subtitle {
@@ -9116,11 +9116,11 @@ body.event-page .react-upcoming__event .event__card .event_time {
 }
 
 .react-footer .footer-top .footer-widget-3 {
-    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .react-footer .footer-top .footer-widget.footer-widget-2 {
-    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .react-footer .footer-top .footer-widget .footer-title {
@@ -9147,7 +9147,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
 
 .react-footer .footer-top .footer-widget .footer-address li a {
     color: #B7B7B9;
-    margin-left: 10px;
+    margin-right: 10px;
     line-height: 24px;
     font-size: 18px;
 }
@@ -9168,7 +9168,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
 }
 
 .react-footer .footer-top .footer-widget .footer-address li.react-address svg {
-    margin-right: 10px;
+    margin-left: 10px;
     width: 22px;
     position: relative;
     top: 1px;
@@ -9215,7 +9215,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
     line-height: 20px;
     color: #B7B7B9;
     font-weight: 700;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .react-footer .copyright .react-copy-left {
@@ -9243,7 +9243,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
 }
 
 .react-footer .copyright .react-copy-right ul li {
-    padding-left: 6px;
+    padding-right: 6px;
 }
 
 .react-footer .copyright .react-copy-right ul li a {
@@ -9300,7 +9300,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
 
 .social-links li {
     display: inline-block;
-    margin-right: 6px;
+    margin-left: 6px;
 }
 
 .social-links li a {
@@ -9324,7 +9324,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
 }
 
 .social-links li:last-child {
-    margin-right: 0;
+    margin-left: 0;
 }
 
 /*****************************************************
@@ -9348,8 +9348,8 @@ body.event-page .react-upcoming__event .event__card .event_time {
     z-index: 999999;
     width: 100%;
     top: 0;
-    left: 0;
     right: 0;
+    left: 0;
     bottom: 0;
 }
 
@@ -9367,9 +9367,9 @@ body.event-page .react-upcoming__event .event__card .event_time {
     border-style: solid;
     border-width: 5px;
     border-top-color: #8D1B3D;
-    border-right-color: #8D1B3D;
+    border-left-color: #8D1B3D;
     border-bottom-color: #F5BD02;
-    border-left-color: #F5BD02;
+    border-right-color: #F5BD02;
     border-radius: 50%;
     -webkit-animation: spinLoader 2s linear infinite;
     animation: spinLoader 2s linear infinite;
@@ -9381,8 +9381,8 @@ body.event-page .react-upcoming__event .event__card .event_time {
         transform: rotate(0deg);
     }
     100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
     }
 }
 
@@ -9392,8 +9392,8 @@ body.event-page .react-upcoming__event .event__card .event_time {
         transform: rotate(0deg);
     }
     100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
     }
 }
 
@@ -9403,7 +9403,7 @@ body.event-page .react-upcoming__event .event__card .event_time {
 #backscrollUp {
     position: fixed;
     bottom: 40px;
-    right: 15px;
+    left: 15px;
     transition: all .5s ease;
     z-index: 99999;
     cursor: pointer;
@@ -9614,13 +9614,13 @@ body.event-page .react-upcoming__event .event__card .event_time {
 
 .react-login-page .login-right-form form .back-check-box input {
     width: auto;
-    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .react-login-page .login-right-form form .back-check-box p {
     margin: 0;
     flex: 1;
-    text-align: right;
+    text-align: left;
 }
 
 .react-login-page .login-right-form form .back-check-box em {
@@ -9851,7 +9851,7 @@ img.desktop {
 
 .editor ul li {
     position: relative;
-    padding-left: 18px;
+    padding-right: 18px;
 
 }
 
@@ -9859,7 +9859,7 @@ img.desktop {
     display: block;
     content: '';
     position: absolute;
-    left: 0;
+    right: 0;
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -9902,9 +9902,9 @@ img.desktop {
     content: '';
     display: block;
     background: rgb(141,27,61);
-    background: linear-gradient(90deg, rgba(141,27,61,0.7974300061821604) 0%, rgba(141,27,61,0.5981022750897234) 35%, rgba(0,212,255,0) 100%);
+    background: linear-gradient(-90deg, rgba(141,27,61,0.7974300061821604) 0%, rgba(141,27,61,0.5981022750897234) 35%, rgba(0,212,255,0) 100%);
     width: 100%;
-    left: 0;
+    right: 0;
     height: 100%;
     top: 0;
 }
@@ -9917,11 +9917,11 @@ img.desktop {
     font-size: 1.3rem !important;
 }
 .popular__course__area .course__item p{
-    padding-left: 25px;
     padding-right: 25px;
+    padding-left: 25px;
 }
 #service-slider{
-    box-shadow: 0px 30px 50px 0px rgb(1 11 60 / 10%););
+    box-shadow: 0px 30px 50px 0px rgba(1,11,60,0.1)
 }
 .profile-page .profile-top .user-section li em{
     display: block;
@@ -9930,7 +9930,7 @@ img.desktop {
     display: block;
 }
 .team-img{
-    box-shadow: 0px 30px 50px 0px rgb(1 11 60 / 10%););
+    box-shadow: 0px 30px 50px 0px rgba(1,11,60,0.1);
     min-width: 360px;
 }
 .breadcrumb {
@@ -9960,8 +9960,8 @@ img.desktop {
 .breadcrumb__navigation {
     position: absolute;
     bottom: -26px;
-    right: 50%;
-    transform: translateX(50%);
+    left: 50%;
+    transform: translateX(-50%);
 }
 @media (min-width: 575px) {
     .breadcrumb__navigation {
@@ -10013,8 +10013,8 @@ img.desktop {
 .breadcrumb__navigation {
     position: absolute;
     bottom: -26px;
-    right: 50%;
-    transform: translateX(50%);
+    left: 50%;
+    transform: translateX(-50%);
 }
 @media (min-width: 575px) {
     .breadcrumb__navigation {
@@ -10023,4 +10023,9 @@ img.desktop {
 }
 .breadcrumb__navigation--text{
     margin-bottom: 0 !important;
+}
+/*rtl*/
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next,.about__area.about__area_one ul li .more-about svg,.react-contact-page .blog-form form button svg
+,.react-footer .footer-top .footer3__form-1 i,.course__item .r__link svg,.carousel-control-next-icon, .carousel-control-prev-icon{
+    transform: scale(-1);
 }
