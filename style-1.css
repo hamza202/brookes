@@ -9933,3 +9933,94 @@ img.desktop {
     box-shadow: 0px 30px 50px 0px rgb(1 11 60 / 10%););
     min-width: 360px;
 }
+.breadcrumb {
+    margin: 0;
+    position: relative;
+    padding: 80px 0 40px;
+    border-bottom: 1px solid #DEE7EE;
+}
+@media (min-width: 575px) {
+    .breadcrumb {
+        padding: 80px 0 40px;
+    }
+}
+@media (min-width: 992px) {
+    .breadcrumb {
+        padding: 114px 0 83px;
+    }
+}
+.breadcrumb__content .title {
+    padding-bottom: 18px;
+}
+@media (min-width: 992px) {
+    .breadcrumb__content .title {
+        padding-bottom: 23px;
+    }
+}
+.breadcrumb__navigation {
+    position: absolute;
+    bottom: -26px;
+    right: 50%;
+    transform: translateX(50%);
+}
+@media (min-width: 575px) {
+    .breadcrumb__navigation {
+        bottom: -27px;
+    }
+}
+.breadcrumb__navigation--text {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 14px 20px;
+    border-radius: 30px;
+    background: white;
+    border: 1px solid #DEE7EE;
+    font-weight: 500;
+    line-height: 1.2777777778;
+    font-size: 16px;
+    color: var(--bs-dark) !important;
+}
+.breadcrumb__navigation--text span {
+    display: block;
+    color: var(--bs-gray);
+}
+.breadcrumb__navigation--text .dot {
+    margin: 0 10px;
+    width: 5px;
+    height: 5px;
+    background: #F5BD02;
+    border-radius: 500px;
+}
+.breadcrumb__navigation--text .page-text {
+    white-space: nowrap;
+}
+@media (min-width: 575px) {
+    .breadcrumb__navigation--text {
+        font-size: 18px;
+        padding: 14px 30px;
+    }
+}
+.bg-white-lilac {
+    background-color: #F7F9FC;
+}
+.page-title-block-two .title {
+    font-weight: 600;
+    line-height: 1.3103448276;
+    font-size: 42px;
+    color: #0F1216;
+}
+.breadcrumb__navigation {
+    position: absolute;
+    bottom: -26px;
+    right: 50%;
+    transform: translateX(50%);
+}
+@media (min-width: 575px) {
+    .breadcrumb__navigation {
+        bottom: -27px !important;
+    }
+}
+.breadcrumb__navigation--text{
+    margin-bottom: 0 !important;
+}
