@@ -10024,3 +10024,30 @@ img.desktop {
 .breadcrumb__navigation--text{
     margin-bottom: 0 !important;
 }
+/*new*/
+
+@media screen and (max-width: 991px){
+    .about__area_one .about__content{
+        padding: 20px !important;
+    }
+    .about__area_one .react__title__section{
+        padding-bottom: 15px !important;
+    }
+}
+@media screen and (min-width: 991px){
+    .about2__area ul li{
+        font-size: 19px;
+    }
+    .about__area.about__area_one p{
+        font-size: 19px;
+    }
+    .about__area.about__area_one .about__paragraph.fs-7{
+        font-size: 1.8rem !important;
+        line-height: 44px !important;
+    }
+}
+.editor ul li:before{
+    width: 6px;
+    height: 6px;
+    top: 11px;
+}

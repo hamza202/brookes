@@ -10029,3 +10029,28 @@ img.desktop {
 ,.react-footer .footer-top .footer3__form-1 i,.course__item .r__link svg,.carousel-control-next-icon, .carousel-control-prev-icon{
     transform: scale(-1);
 }
+@media screen and (max-width: 991px){
+    .about__area_one .about__content{
+        padding: 20px !important;
+    }
+    .about__area_one .react__title__section{
+        padding-bottom: 15px !important;
+    }
+}
+@media screen and (min-width: 991px){
+    .about2__area ul li{
+        font-size: 19px;
+    }
+    .about__area.about__area_one p{
+        font-size: 19px;
+    }
+    .about__area.about__area_one .about__paragraph.fs-7{
+        font-size: 1.8rem !important;
+        line-height: 44px !important;
+    }
+}
+.editor ul li:before{
+    width: 6px;
+    height: 6px;
+    top: 11px;
+}
